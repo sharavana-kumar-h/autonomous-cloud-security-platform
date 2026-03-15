@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: autonomous-cloud-security-platform
+    runtime: python
+    plan: starter
+    buildCommand: pip install -e .
+    startCommand: uvicorn cloud_platform.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    envVars:
+      - key: PLATFORM_ENV
+        value: production
