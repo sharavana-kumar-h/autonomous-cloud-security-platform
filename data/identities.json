@@ -1,0 +1,1877 @@
+{
+  "users": [
+    {
+      "username": "admin",
+      "password_hash": "ccc0b903bce51fb554262d742d0a282e1f8a87d064f1cf44f8ff5148ca4beb42",
+      "password_salt": "legacy-sha256",
+      "role": "platform_admin",
+      "tenant_scopes": [],
+      "namespace_scopes": [],
+      "environment_scopes": [],
+      "workload_scopes": [],
+      "service_account_scopes": [],
+      "workload_label_scopes": [],
+      "approver_groups": [
+        "platform",
+        "security"
+      ],
+      "created_at": "2026-03-15T13:28:07.960165Z"
+    },
+    {
+      "username": "viewer1",
+      "password_hash": "d97abb49f44334e4a5bde3c88a61593fb338e42e3262c6973a41da700dbfa220",
+      "password_salt": "d02cba121a9eaded6c54e2c3d9cd7a18",
+      "role": "viewer",
+      "tenant_scopes": [],
+      "namespace_scopes": [],
+      "environment_scopes": [],
+      "workload_scopes": [],
+      "service_account_scopes": [],
+      "workload_label_scopes": [],
+      "approver_groups": [],
+      "created_at": "2026-03-15T13:39:52.263861Z"
+    },
+    {
+      "username": "viewer-rbac",
+      "password_hash": "bcbb5ff8894c66597d0a6f4987b240f163a5c24e5daecf69e545501c6b21fffb",
+      "password_salt": "ed7b86517a488cab2218e9f58af70f22",
+      "role": "platform_admin",
+      "tenant_scopes": [],
+      "namespace_scopes": [],
+      "environment_scopes": [],
+      "workload_scopes": [],
+      "service_account_scopes": [],
+      "workload_label_scopes": [],
+      "approver_groups": [
+        "platform",
+        "security"
+      ],
+      "created_at": "2026-03-15T13:47:15.951164Z"
+    },
+    {
+      "username": "policy-user",
+      "password_hash": "7a3e8f5f87b2a86dc8fac1defaddba611d212e35dc17f2c27164a25f3dc1d507",
+      "password_salt": "392ad1c81043c4fb7e1a7c54ddb7c4c0",
+      "role": "policy_admin",
+      "tenant_scopes": [],
+      "namespace_scopes": [],
+      "environment_scopes": [],
+      "workload_scopes": [],
+      "service_account_scopes": [],
+      "workload_label_scopes": [],
+      "approver_groups": [],
+      "created_at": "2026-03-15T13:54:27.190447Z"
+    },
+    {
+      "username": "viewer-rbac-a056714f",
+      "password_hash": "8193c7a2bcd3c8a7c952164026b345e1fcadbd3939f4a71e9b4a34e0ce89b396",
+      "password_salt": "c8ba7d603e47278d6b01d1cb43b071ba",
+      "role": "viewer",
+      "tenant_scopes": [],
+      "namespace_scopes": [],
+      "environment_scopes": [],
+      "workload_scopes": [],
+      "service_account_scopes": [],
+      "workload_label_scopes": [],
+      "approver_groups": [],
+      "created_at": "2026-03-15T13:55:02.495640Z"
+    },
+    {
+      "username": "viewer-rbac-41f362f9",
+      "password_hash": "fa934bb0a6d305b74c05c8594242b1006a97ba52ac0aede8723ef046518788a2",
+      "password_salt": "df28edefcd786b60e273a8d95950e9a1",
+      "role": "platform_admin",
+      "tenant_scopes": [],
+      "namespace_scopes": [],
+      "environment_scopes": [],
+      "workload_scopes": [],
+      "service_account_scopes": [],
+      "workload_label_scopes": [],
+      "approver_groups": [
+        "platform",
+        "security"
+      ],
+      "created_at": "2026-03-15T13:55:33.351854Z"
+    },
+    {
+      "username": "policy-user-f91a9e24",
+      "password_hash": "8ed107781614e8bb1048a0818fdc7bdab6131f4933b14c51250ff40aeef04f4e",
+      "password_salt": "af11ecdd101305725073b1c3212277d9",
+      "role": "policy_admin",
+      "tenant_scopes": [],
+      "namespace_scopes": [],
+      "environment_scopes": [],
+      "workload_scopes": [],
+      "service_account_scopes": [],
+      "workload_label_scopes": [],
+      "approver_groups": [],
+      "created_at": "2026-03-15T13:55:34.014894Z"
+    },
+    {
+      "username": "viewer-rbac-95413952",
+      "password_hash": "8cee46094d80649817c88f3f55aef39e6d79c2981996b727a3244448e4b7a38d",
+      "password_salt": "e381f99593aaa8b2ca0f8dd21759a077",
+      "role": "platform_admin",
+      "tenant_scopes": [],
+      "namespace_scopes": [],
+      "environment_scopes": [],
+      "workload_scopes": [],
+      "service_account_scopes": [],
+      "workload_label_scopes": [],
+      "approver_groups": [
+        "platform",
+        "security"
+      ],
+      "created_at": "2026-03-15T14:03:32.100308Z"
+    },
+    {
+      "username": "policy-user-951c27d8",
+      "password_hash": "a2b4dff1d3b41efc794d06314bf5bb2f9cb8a90ef71603cd8c1e678516fa4f3c",
+      "password_salt": "3477c6a1a9c904152634d37c0a3769b0",
+      "role": "policy_admin",
+      "tenant_scopes": [
+        "tenant-scope-4052f3"
+      ],
+      "namespace_scopes": [],
+      "environment_scopes": [],
+      "workload_scopes": [],
+      "service_account_scopes": [],
+      "workload_label_scopes": [],
+      "approver_groups": [],
+      "created_at": "2026-03-15T14:03:36.545468Z"
+    },
+    {
+      "username": "viewer-rbac-7ba8721a",
+      "password_hash": "16f4e0f63a51508f73114b95ba8fb04369220ef7f02df083a1d887a7257d8a93",
+      "password_salt": "e64d7391f0a010d4eff72c0b8147d54a",
+      "role": "platform_admin",
+      "tenant_scopes": [
+        "tenant-a",
+        "tenant-b"
+      ],
+      "namespace_scopes": [],
+      "environment_scopes": [],
+      "workload_scopes": [],
+      "service_account_scopes": [],
+      "workload_label_scopes": [],
+      "approver_groups": [
+        "platform",
+        "security"
+      ],
+      "created_at": "2026-03-15T14:04:47.484113Z"
+    },
+    {
+      "username": "policy-user-979f70a5",
+      "password_hash": "727907c5170c54e712214638ed1b6b4836979d87c182697d7d7c0bf23c28c5a7",
+      "password_salt": "cda8b678920300bf752538df46169429",
+      "role": "policy_admin",
+      "tenant_scopes": [
+        "tenant-scope-0bd6c0"
+      ],
+      "namespace_scopes": [],
+      "environment_scopes": [],
+      "workload_scopes": [],
+      "service_account_scopes": [],
+      "workload_label_scopes": [],
+      "approver_groups": [],
+      "created_at": "2026-03-15T14:04:48.533548Z"
+    },
+    {
+      "username": "viewer-rbac-a71751e2",
+      "password_hash": "57f031c280d561ce97d86ee8549a6c16f692f20a84302bfa6fd132ae41694e1d",
+      "password_salt": "25f989e151e610ff98656db249510a8d",
+      "role": "platform_admin",
+      "tenant_scopes": [
+        "tenant-a",
+        "tenant-b"
+      ],
+      "namespace_scopes": [
+        "payments",
+        "checkout"
+      ],
+      "environment_scopes": [],
+      "workload_scopes": [],
+      "service_account_scopes": [],
+      "workload_label_scopes": [],
+      "approver_groups": [
+        "platform",
+        "security"
+      ],
+      "created_at": "2026-03-15T14:08:49.920455Z"
+    },
+    {
+      "username": "policy-user-5b57b0e7",
+      "password_hash": "71f1b692e18dcd0005f17ff4d9a69943117893bbc07409b5214dc789f3121499",
+      "password_salt": "559d8ea81a2186143b94519899ed82c1",
+      "role": "policy_admin",
+      "tenant_scopes": [
+        "tenant-scope-06a40f"
+      ],
+      "namespace_scopes": [
+        "payments"
+      ],
+      "environment_scopes": [],
+      "workload_scopes": [],
+      "service_account_scopes": [],
+      "workload_label_scopes": [],
+      "approver_groups": [],
+      "created_at": "2026-03-15T14:08:51.698894Z"
+    },
+    {
+      "username": "viewer-rbac-5bc43710",
+      "password_hash": "4786f9954d95cb19abab6512ff5b947e0c6df3d74250445cc92abb1c6026aea0",
+      "password_salt": "1281941f0f7cfe9ef34fd25900c71299",
+      "role": "platform_admin",
+      "tenant_scopes": [
+        "tenant-a",
+        "tenant-b"
+      ],
+      "namespace_scopes": [
+        "payments",
+        "checkout"
+      ],
+      "environment_scopes": [
+        "prod",
+        "stage"
+      ],
+      "workload_scopes": [
+        "prod/payments/api*",
+        "stage/checkout/web*"
+      ],
+      "service_account_scopes": [],
+      "workload_label_scopes": [],
+      "approver_groups": [
+        "platform",
+        "security"
+      ],
+      "created_at": "2026-03-15T14:16:36.074608Z"
+    },
+    {
+      "username": "policy-user-74488adb",
+      "password_hash": "0f68acecdafd16b4b64db0d9b2a103c161ef17ff57e3ee9b0b859697602b6d19",
+      "password_salt": "37a915ce161f6ca877c6e7e55b2e2eea",
+      "role": "policy_admin",
+      "tenant_scopes": [
+        "tenant-scope-717c35"
+      ],
+      "namespace_scopes": [
+        "payments"
+      ],
+      "environment_scopes": [
+        "prod"
+      ],
+      "workload_scopes": [
+        "prod/payments/api*"
+      ],
+      "service_account_scopes": [],
+      "workload_label_scopes": [],
+      "approver_groups": [],
+      "created_at": "2026-03-15T14:16:36.698669Z"
+    },
+    {
+      "username": "remediation-user-313c9773",
+      "password_hash": "3847e8e7ebedf409b394380f0d4e3fd75c94a537ef4dc1b37a152c4e2d15cdda",
+      "password_salt": "5e22f65b6a61e87bb986a0adaf90687e",
+      "role": "remediation_approver",
+      "tenant_scopes": [
+        "tenant-remediation-scope"
+      ],
+      "namespace_scopes": [
+        "payments"
+      ],
+      "environment_scopes": [
+        "stage"
+      ],
+      "workload_scopes": [
+        "prod/payments/api*"
+      ],
+      "service_account_scopes": [],
+      "workload_label_scopes": [],
+      "approver_groups": [],
+      "created_at": "2026-03-15T14:16:37.016004Z"
+    },
+    {
+      "username": "viewer-rbac-a020ae94",
+      "password_hash": "e55c3f993605ae8f16f60eae86bfcf81412b404cecdd4349238c6c9d39d770b5",
+      "password_salt": "098ba88fb9ef4cb6c0c9deb0e6e21d75",
+      "role": "platform_admin",
+      "tenant_scopes": [
+        "tenant-a",
+        "tenant-b"
+      ],
+      "namespace_scopes": [
+        "payments",
+        "checkout"
+      ],
+      "environment_scopes": [
+        "prod",
+        "stage"
+      ],
+      "workload_scopes": [
+        "prod/payments/api*",
+        "stage/checkout/web*"
+      ],
+      "service_account_scopes": [],
+      "workload_label_scopes": [],
+      "approver_groups": [
+        "platform",
+        "security"
+      ],
+      "created_at": "2026-03-15T14:17:00.821991Z"
+    },
+    {
+      "username": "policy-user-fd889811",
+      "password_hash": "1b3339eca6f54ef998250225c5045b8208c5ed873a02514ca46c14bee588afff",
+      "password_salt": "47a3f23dfecaf3e8996f3fb3022771e2",
+      "role": "policy_admin",
+      "tenant_scopes": [
+        "tenant-scope-193160"
+      ],
+      "namespace_scopes": [
+        "payments"
+      ],
+      "environment_scopes": [
+        "prod"
+      ],
+      "workload_scopes": [
+        "prod/payments/api*"
+      ],
+      "service_account_scopes": [],
+      "workload_label_scopes": [],
+      "approver_groups": [],
+      "created_at": "2026-03-15T14:17:01.625669Z"
+    },
+    {
+      "username": "remediation-user-29166bdb",
+      "password_hash": "9bbce439cf20089c34f54f99323b09c60a0626d9a4538f20630b032544abc9b2",
+      "password_salt": "3832b73b17eb3c78b66b6c0ed659164d",
+      "role": "remediation_approver",
+      "tenant_scopes": [
+        "tenant-remediation-scope"
+      ],
+      "namespace_scopes": [
+        "payments"
+      ],
+      "environment_scopes": [
+        "stage"
+      ],
+      "workload_scopes": [
+        "prod/payments/api*"
+      ],
+      "service_account_scopes": [],
+      "workload_label_scopes": [],
+      "approver_groups": [],
+      "created_at": "2026-03-15T14:17:01.921001Z"
+    },
+    {
+      "username": "viewer-rbac-f90a2c4e",
+      "password_hash": "0a66a31ee5027645f5a08fca3f24db3c4f23f818206133e37e2dacf153902d17",
+      "password_salt": "8b88f1df31122f077c834d8e7f647c56",
+      "role": "platform_admin",
+      "tenant_scopes": [
+        "tenant-a",
+        "tenant-b"
+      ],
+      "namespace_scopes": [
+        "payments",
+        "checkout"
+      ],
+      "environment_scopes": [
+        "prod",
+        "stage"
+      ],
+      "workload_scopes": [
+        "prod/payments/api*",
+        "stage/checkout/web*"
+      ],
+      "service_account_scopes": [],
+      "workload_label_scopes": [],
+      "approver_groups": [
+        "platform",
+        "security"
+      ],
+      "created_at": "2026-03-15T14:17:38.771611Z"
+    },
+    {
+      "username": "policy-user-341ef425",
+      "password_hash": "1711d4e6791b30dd7fd8b2c05898dd254ab78faadddf9355afa9dae68bcccb24",
+      "password_salt": "ff52779324cea1c8e2e3ddcc7486943a",
+      "role": "policy_admin",
+      "tenant_scopes": [
+        "tenant-scope-1dfa47"
+      ],
+      "namespace_scopes": [
+        "payments"
+      ],
+      "environment_scopes": [
+        "prod"
+      ],
+      "workload_scopes": [
+        "prod/payments/api*"
+      ],
+      "service_account_scopes": [],
+      "workload_label_scopes": [],
+      "approver_groups": [],
+      "created_at": "2026-03-15T14:17:39.370436Z"
+    },
+    {
+      "username": "remediation-user-f37b034e",
+      "password_hash": "1343d736f67dd69096d1684d45e59d0b38a485d0098045c818be95d72c8e9cbc",
+      "password_salt": "81b4753c13705ae7a34233b82fd53cd8",
+      "role": "remediation_approver",
+      "tenant_scopes": [
+        "tenant-remediation-scope"
+      ],
+      "namespace_scopes": [
+        "payments"
+      ],
+      "environment_scopes": [
+        "prod"
+      ],
+      "workload_scopes": [
+        "prod/payments/api*"
+      ],
+      "service_account_scopes": [],
+      "workload_label_scopes": [],
+      "approver_groups": [],
+      "created_at": "2026-03-15T14:17:39.741613Z"
+    },
+    {
+      "username": "viewer-rbac-7d37042c",
+      "password_hash": "7744cdb400f74a2eb6d8547d3ed3cac1bdbeee616f36816b1d89d0f908657395",
+      "password_salt": "ff05cb45aec06ade4c48446202846e48",
+      "role": "platform_admin",
+      "tenant_scopes": [
+        "tenant-a",
+        "tenant-b"
+      ],
+      "namespace_scopes": [
+        "payments",
+        "checkout"
+      ],
+      "environment_scopes": [
+        "prod",
+        "stage"
+      ],
+      "workload_scopes": [
+        "prod/payments/api*",
+        "stage/checkout/web*"
+      ],
+      "service_account_scopes": [
+        "payments-api",
+        "checkout-web"
+      ],
+      "workload_label_scopes": [
+        "app=payments-api",
+        "tier=frontend"
+      ],
+      "approver_groups": [
+        "platform",
+        "security"
+      ],
+      "created_at": "2026-03-15T14:21:44.738483Z"
+    },
+    {
+      "username": "policy-user-5060a183",
+      "password_hash": "f4f3fc42796426f1090857731fc897d84dc2731f002af865ba6ab54bb8f466f1",
+      "password_salt": "d274eb4149d35888e6a3e238e03284fd",
+      "role": "policy_admin",
+      "tenant_scopes": [
+        "tenant-scope-344b16"
+      ],
+      "namespace_scopes": [
+        "payments"
+      ],
+      "environment_scopes": [
+        "prod"
+      ],
+      "workload_scopes": [
+        "prod/payments/api*"
+      ],
+      "service_account_scopes": [
+        "payments-api"
+      ],
+      "workload_label_scopes": [
+        "app=payments-api"
+      ],
+      "approver_groups": [],
+      "created_at": "2026-03-15T14:21:45.464146Z"
+    },
+    {
+      "username": "remediation-user-fd0b3f66",
+      "password_hash": "d50e6d92963d1ae9a77ecd0732f4258b36430eb6c9c1fad7214d76df0e1e9d17",
+      "password_salt": "45d2dc03ca1f2656deb4cae2f95626ee",
+      "role": "remediation_approver",
+      "tenant_scopes": [
+        "tenant-remediation-scope"
+      ],
+      "namespace_scopes": [
+        "payments"
+      ],
+      "environment_scopes": [
+        "prod"
+      ],
+      "workload_scopes": [
+        "prod/payments/api*"
+      ],
+      "service_account_scopes": [
+        "payments-jobs"
+      ],
+      "workload_label_scopes": [
+        "app=payments-api"
+      ],
+      "approver_groups": [],
+      "created_at": "2026-03-15T14:21:45.877076Z"
+    },
+    {
+      "username": "viewer-rbac-acd03082",
+      "password_hash": "0e1e45a63b76ebb8f6e650826bbb0fef6d2b9a5dd3ddb1b8816a1565004bdd52",
+      "password_salt": "ef2ac12a107272c92d02c7890611c7ee",
+      "role": "platform_admin",
+      "tenant_scopes": [
+        "tenant-a",
+        "tenant-b"
+      ],
+      "namespace_scopes": [
+        "payments",
+        "checkout"
+      ],
+      "environment_scopes": [
+        "prod",
+        "stage"
+      ],
+      "workload_scopes": [
+        "prod/payments/api*",
+        "stage/checkout/web*"
+      ],
+      "service_account_scopes": [
+        "payments-api",
+        "checkout-web"
+      ],
+      "workload_label_scopes": [
+        "app=payments-api",
+        "tier=frontend"
+      ],
+      "approver_groups": [
+        "platform",
+        "security"
+      ],
+      "created_at": "2026-03-15T14:23:40.505548Z"
+    },
+    {
+      "username": "policy-user-d501804f",
+      "password_hash": "cb8c63e4ca31e7307768cc32d6a34b154ca269809315accadb71fa7765cf7154",
+      "password_salt": "c71e0bd143f0e141812cec629d6dee4e",
+      "role": "policy_admin",
+      "tenant_scopes": [
+        "tenant-scope-d8553d"
+      ],
+      "namespace_scopes": [
+        "payments"
+      ],
+      "environment_scopes": [
+        "prod"
+      ],
+      "workload_scopes": [
+        "prod/payments/api*"
+      ],
+      "service_account_scopes": [
+        "payments-api"
+      ],
+      "workload_label_scopes": [
+        "app=payments-api"
+      ],
+      "approver_groups": [],
+      "created_at": "2026-03-15T14:23:41.676330Z"
+    },
+    {
+      "username": "remediation-user-d2290654",
+      "password_hash": "8b95ec483dd840119390a89b2c616208fa98c39cbf97667663131bed41b814d1",
+      "password_salt": "dae07455bf4d78b55d9764690f851a79",
+      "role": "remediation_approver",
+      "tenant_scopes": [
+        "tenant-remediation-scope"
+      ],
+      "namespace_scopes": [
+        "payments"
+      ],
+      "environment_scopes": [
+        "prod"
+      ],
+      "workload_scopes": [
+        "prod/payments/api*"
+      ],
+      "service_account_scopes": [
+        "payments-jobs"
+      ],
+      "workload_label_scopes": [
+        "app=payments-api"
+      ],
+      "approver_groups": [],
+      "created_at": "2026-03-15T14:23:42.138766Z"
+    },
+    {
+      "username": "viewer-rbac-a0e85c3d",
+      "password_hash": "306072a6e17bf14cc6abbb121b8afb5e1aa0db9e254df6ac691e618df0e722e3",
+      "password_salt": "e72898ce4510e396d1118d9eb87352f2",
+      "role": "platform_admin",
+      "tenant_scopes": [
+        "tenant-a",
+        "tenant-b"
+      ],
+      "namespace_scopes": [
+        "payments",
+        "checkout"
+      ],
+      "environment_scopes": [
+        "prod",
+        "stage"
+      ],
+      "workload_scopes": [
+        "prod/payments/api*",
+        "stage/checkout/web*"
+      ],
+      "service_account_scopes": [
+        "payments-api",
+        "checkout-web"
+      ],
+      "workload_label_scopes": [
+        "app=payments-api",
+        "tier=frontend"
+      ],
+      "approver_groups": [
+        "platform",
+        "security"
+      ],
+      "created_at": "2026-03-15T14:25:02.339126Z"
+    },
+    {
+      "username": "policy-user-009cdd20",
+      "password_hash": "d3ea3c49deb714df6f83824b26cb5bf4390f44e096e0a8d9099c326d1e90554a",
+      "password_salt": "549d0f0cd3e5ca1af7436140ba49dba3",
+      "role": "policy_admin",
+      "tenant_scopes": [
+        "tenant-scope-de8e37"
+      ],
+      "namespace_scopes": [
+        "payments"
+      ],
+      "environment_scopes": [
+        "prod"
+      ],
+      "workload_scopes": [
+        "prod/payments/api*"
+      ],
+      "service_account_scopes": [
+        "payments-api"
+      ],
+      "workload_label_scopes": [
+        "app=payments-api"
+      ],
+      "approver_groups": [],
+      "created_at": "2026-03-15T14:25:03.025244Z"
+    },
+    {
+      "username": "remediation-user-35066bbb",
+      "password_hash": "816e79870c0f70045c6655280867689f2fee43bed02e84ad8ef2126a2394efe4",
+      "password_salt": "578b27349d0fff35735f900b3b323710",
+      "role": "remediation_approver",
+      "tenant_scopes": [
+        "tenant-remediation-scope"
+      ],
+      "namespace_scopes": [
+        "payments"
+      ],
+      "environment_scopes": [
+        "prod"
+      ],
+      "workload_scopes": [
+        "prod/payments/api*"
+      ],
+      "service_account_scopes": [
+        "payments-api"
+      ],
+      "workload_label_scopes": [
+        "app=payments-api"
+      ],
+      "approver_groups": [],
+      "created_at": "2026-03-15T14:25:03.348310Z"
+    },
+    {
+      "username": "viewer-rbac-ff480dde",
+      "password_hash": "3510e90e2b7363dd40bfe37e089a6a777bb6e019fc2188149b9bb55a79f69b76",
+      "password_salt": "2af6a7c1487aa2c3bcdcd2375472ae7b",
+      "role": "platform_admin",
+      "tenant_scopes": [
+        "tenant-a",
+        "tenant-b"
+      ],
+      "namespace_scopes": [
+        "payments",
+        "checkout"
+      ],
+      "environment_scopes": [
+        "prod",
+        "stage"
+      ],
+      "workload_scopes": [
+        "prod/payments/api*",
+        "stage/checkout/web*"
+      ],
+      "service_account_scopes": [
+        "payments-api",
+        "checkout-web"
+      ],
+      "workload_label_scopes": [
+        "app=payments-api",
+        "tier=frontend"
+      ],
+      "approver_groups": [
+        "platform",
+        "security"
+      ],
+      "created_at": "2026-03-15T14:41:46.981648Z"
+    },
+    {
+      "username": "policy-user-00609b50",
+      "password_hash": "96f6271471db95191f9f27b4c7c3e2730cf3f10ae8c3a7d4c2fc61f8e567bb36",
+      "password_salt": "75e8f8f369715d2d9ca2786f0a03102d",
+      "role": "policy_admin",
+      "tenant_scopes": [
+        "tenant-scope-46ce9a"
+      ],
+      "namespace_scopes": [
+        "payments"
+      ],
+      "environment_scopes": [
+        "prod"
+      ],
+      "workload_scopes": [
+        "prod/payments/api*"
+      ],
+      "service_account_scopes": [
+        "payments-api"
+      ],
+      "workload_label_scopes": [
+        "app=payments-api"
+      ],
+      "approver_groups": [],
+      "created_at": "2026-03-15T14:41:47.728079Z"
+    },
+    {
+      "username": "remediation-user-a1c208da",
+      "password_hash": "6729820a5b76a7c474db14d221899be9b95ee40679ef8bc1af32e3ca4e8f6d3e",
+      "password_salt": "de22578a0161c67ac8d22bf6a6385440",
+      "role": "remediation_approver",
+      "tenant_scopes": [
+        "tenant-remediation-scope"
+      ],
+      "namespace_scopes": [
+        "payments"
+      ],
+      "environment_scopes": [
+        "prod"
+      ],
+      "workload_scopes": [
+        "prod/payments/api*"
+      ],
+      "service_account_scopes": [
+        "payments-api"
+      ],
+      "workload_label_scopes": [
+        "app=payments-api"
+      ],
+      "approver_groups": [],
+      "created_at": "2026-03-15T14:41:48.087531Z"
+    },
+    {
+      "username": "viewer-rbac-2d9d1db0",
+      "password_hash": "78ed554546c3dbcaca387f7f05b3411d054239907daa6b501651d56cc6b6ea8b",
+      "password_salt": "75d4c4ecaf239c3faa032ef9abc3e4b0",
+      "role": "platform_admin",
+      "tenant_scopes": [
+        "tenant-a",
+        "tenant-b"
+      ],
+      "namespace_scopes": [
+        "payments",
+        "checkout"
+      ],
+      "environment_scopes": [
+        "prod",
+        "stage"
+      ],
+      "workload_scopes": [
+        "prod/payments/api*",
+        "stage/checkout/web*"
+      ],
+      "service_account_scopes": [
+        "payments-api",
+        "checkout-web"
+      ],
+      "workload_label_scopes": [
+        "app=payments-api",
+        "tier=frontend"
+      ],
+      "approver_groups": [
+        "platform",
+        "security"
+      ],
+      "created_at": "2026-03-15T14:55:00.746777Z"
+    },
+    {
+      "username": "policy-user-4da0004c",
+      "password_hash": "694ead08de60d7ab9d495682b1ad63b1ada50417bd674bc581ff2be662057e16",
+      "password_salt": "551891f62e5548f736042d8440f927e7",
+      "role": "policy_admin",
+      "tenant_scopes": [
+        "tenant-scope-8fae91"
+      ],
+      "namespace_scopes": [
+        "payments"
+      ],
+      "environment_scopes": [
+        "prod"
+      ],
+      "workload_scopes": [
+        "prod/payments/api*"
+      ],
+      "service_account_scopes": [
+        "payments-api"
+      ],
+      "workload_label_scopes": [
+        "app=payments-api"
+      ],
+      "approver_groups": [],
+      "created_at": "2026-03-15T14:55:01.459065Z"
+    },
+    {
+      "username": "remediation-user-dc278c3f",
+      "password_hash": "30ca3c50f0b578e931028dee3ea02d167010fb613115fec152dcb3dd578a887c",
+      "password_salt": "2856294b1406765f8330284b4e643f9e",
+      "role": "remediation_approver",
+      "tenant_scopes": [
+        "tenant-remediation-scope"
+      ],
+      "namespace_scopes": [
+        "payments"
+      ],
+      "environment_scopes": [
+        "prod"
+      ],
+      "workload_scopes": [
+        "prod/payments/api*"
+      ],
+      "service_account_scopes": [
+        "payments-api"
+      ],
+      "workload_label_scopes": [
+        "app=payments-api"
+      ],
+      "approver_groups": [],
+      "created_at": "2026-03-15T14:55:01.846494Z"
+    },
+    {
+      "username": "viewer-rbac-c4ad9306",
+      "password_hash": "51ebe44a950602295f74ecbfb7e102b460ddaf688d3195268b486a5ccf6ee9cb",
+      "password_salt": "2e024b2825556e4ff217b840e663861a",
+      "role": "platform_admin",
+      "tenant_scopes": [
+        "tenant-a",
+        "tenant-b"
+      ],
+      "namespace_scopes": [
+        "payments",
+        "checkout"
+      ],
+      "environment_scopes": [
+        "prod",
+        "stage"
+      ],
+      "workload_scopes": [
+        "prod/payments/api*",
+        "stage/checkout/web*"
+      ],
+      "service_account_scopes": [
+        "payments-api",
+        "checkout-web"
+      ],
+      "workload_label_scopes": [
+        "app=payments-api",
+        "tier=frontend"
+      ],
+      "approver_groups": [
+        "platform",
+        "security"
+      ],
+      "created_at": "2026-03-15T15:08:23.005047Z"
+    },
+    {
+      "username": "policy-user-7180fa85",
+      "password_hash": "1c0bf1a0635b37ef2343e70ffc5e2302ea4a6b934c8fce4d39b77da4d40b3161",
+      "password_salt": "dc6f603a7de44395076318b19b0de92e",
+      "role": "policy_admin",
+      "tenant_scopes": [
+        "tenant-scope-2f0d73"
+      ],
+      "namespace_scopes": [
+        "payments"
+      ],
+      "environment_scopes": [
+        "prod"
+      ],
+      "workload_scopes": [
+        "prod/payments/api*"
+      ],
+      "service_account_scopes": [
+        "payments-api"
+      ],
+      "workload_label_scopes": [
+        "app=payments-api"
+      ],
+      "approver_groups": [],
+      "created_at": "2026-03-15T15:08:23.590800Z"
+    },
+    {
+      "username": "remediation-user-a260c519",
+      "password_hash": "a128566347e40d8470f8034649977e02b78176cf2aed6c559e90a3f44a8a2ad4",
+      "password_salt": "08d1ffcfae0eac727205556a3ec55b23",
+      "role": "remediation_approver",
+      "tenant_scopes": [
+        "tenant-remediation-scope"
+      ],
+      "namespace_scopes": [
+        "payments"
+      ],
+      "environment_scopes": [
+        "prod"
+      ],
+      "workload_scopes": [
+        "prod/payments/api*"
+      ],
+      "service_account_scopes": [
+        "payments-api"
+      ],
+      "workload_label_scopes": [
+        "app=payments-api"
+      ],
+      "approver_groups": [],
+      "created_at": "2026-03-15T15:08:23.902466Z"
+    },
+    {
+      "username": "approver-a06549ce",
+      "password_hash": "a59e79ddefcd8d8c4fcc28de424d819f30f75847fe982b6b942bd239a4374395",
+      "password_salt": "a58a47a814e90d6e1e138cba96f89a18",
+      "role": "remediation_approver",
+      "tenant_scopes": [
+        "tenant-exception-33b4d9"
+      ],
+      "namespace_scopes": [
+        "payments"
+      ],
+      "environment_scopes": [
+        "prod"
+      ],
+      "workload_scopes": [
+        "prod/payments/api*"
+      ],
+      "service_account_scopes": [
+        "payments-api"
+      ],
+      "workload_label_scopes": [
+        "app=payments-api"
+      ],
+      "approver_groups": [],
+      "created_at": "2026-03-15T15:11:52.683843Z"
+    },
+    {
+      "username": "viewer-rbac-f5c06c7d",
+      "password_hash": "51a4e201589427ca518f8a21597b4471201daa34cc23a1799f791a9b91cda6cb",
+      "password_salt": "deaaa07cf852f81a7611a37092dc60d4",
+      "role": "platform_admin",
+      "tenant_scopes": [
+        "tenant-a",
+        "tenant-b"
+      ],
+      "namespace_scopes": [
+        "payments",
+        "checkout"
+      ],
+      "environment_scopes": [
+        "prod",
+        "stage"
+      ],
+      "workload_scopes": [
+        "prod/payments/api*",
+        "stage/checkout/web*"
+      ],
+      "service_account_scopes": [
+        "payments-api",
+        "checkout-web"
+      ],
+      "workload_label_scopes": [
+        "app=payments-api",
+        "tier=frontend"
+      ],
+      "approver_groups": [
+        "platform",
+        "security"
+      ],
+      "created_at": "2026-03-15T15:11:53.252187Z"
+    },
+    {
+      "username": "policy-user-c9474eb5",
+      "password_hash": "1fdd4f7581519151bd7348b14506610346d9478353f9bda43caaf686e45c096c",
+      "password_salt": "517d1ab6075923146beee156a5096e72",
+      "role": "policy_admin",
+      "tenant_scopes": [
+        "tenant-scope-9f2b10"
+      ],
+      "namespace_scopes": [
+        "payments"
+      ],
+      "environment_scopes": [
+        "prod"
+      ],
+      "workload_scopes": [
+        "prod/payments/api*"
+      ],
+      "service_account_scopes": [
+        "payments-api"
+      ],
+      "workload_label_scopes": [
+        "app=payments-api"
+      ],
+      "approver_groups": [],
+      "created_at": "2026-03-15T15:11:54.302475Z"
+    },
+    {
+      "username": "remediation-user-3010631f",
+      "password_hash": "9522f5fea8c6956788fb587baee22f03ad4aaf01c873ff843f0823013f6a8889",
+      "password_salt": "8e995c3ee4814d7f9cfa8670d39411fe",
+      "role": "remediation_approver",
+      "tenant_scopes": [
+        "tenant-remediation-scope"
+      ],
+      "namespace_scopes": [
+        "payments"
+      ],
+      "environment_scopes": [
+        "prod"
+      ],
+      "workload_scopes": [
+        "prod/payments/api*"
+      ],
+      "service_account_scopes": [
+        "payments-api"
+      ],
+      "workload_label_scopes": [
+        "app=payments-api"
+      ],
+      "approver_groups": [],
+      "created_at": "2026-03-15T15:11:55.001306Z"
+    },
+    {
+      "username": "ops-approver-1ae0d70f",
+      "password_hash": "6cffd376c791a2c2da971616794b173dc6c8956662bbd4ede17fa4a10862bbd2",
+      "password_salt": "4cd0b6a6c96896085f7162171b5d20b3",
+      "role": "remediation_approver",
+      "tenant_scopes": [
+        "tenant-stage-28806b"
+      ],
+      "namespace_scopes": [
+        "payments"
+      ],
+      "environment_scopes": [
+        "prod"
+      ],
+      "workload_scopes": [
+        "prod/payments/api*"
+      ],
+      "service_account_scopes": [
+        "payments-api"
+      ],
+      "workload_label_scopes": [
+        "app=payments-api"
+      ],
+      "approver_groups": [],
+      "created_at": "2026-03-15T15:15:36.941602Z"
+    },
+    {
+      "username": "viewer-rbac-b90c9527",
+      "password_hash": "a3632bc2fa22dad09f173edbc6a8513107d2b20413e425f6013746916a043503",
+      "password_salt": "e67e22c0bac01d4671e65cf7ada1a648",
+      "role": "platform_admin",
+      "tenant_scopes": [
+        "tenant-a",
+        "tenant-b"
+      ],
+      "namespace_scopes": [
+        "payments",
+        "checkout"
+      ],
+      "environment_scopes": [
+        "prod",
+        "stage"
+      ],
+      "workload_scopes": [
+        "prod/payments/api*",
+        "stage/checkout/web*"
+      ],
+      "service_account_scopes": [
+        "payments-api",
+        "checkout-web"
+      ],
+      "workload_label_scopes": [
+        "app=payments-api",
+        "tier=frontend"
+      ],
+      "approver_groups": [
+        "platform",
+        "security"
+      ],
+      "created_at": "2026-03-15T15:15:37.574734Z"
+    },
+    {
+      "username": "policy-user-b288ca43",
+      "password_hash": "ce9316e474a5cda9529b9100dfe48886fdbceb0f795310eed8cb843d09fa5900",
+      "password_salt": "374bb122d4f7f2b09f862b57453d7fc8",
+      "role": "policy_admin",
+      "tenant_scopes": [
+        "tenant-scope-06f3d9"
+      ],
+      "namespace_scopes": [
+        "payments"
+      ],
+      "environment_scopes": [
+        "prod"
+      ],
+      "workload_scopes": [
+        "prod/payments/api*"
+      ],
+      "service_account_scopes": [
+        "payments-api"
+      ],
+      "workload_label_scopes": [
+        "app=payments-api"
+      ],
+      "approver_groups": [],
+      "created_at": "2026-03-15T15:15:38.626474Z"
+    },
+    {
+      "username": "remediation-user-1c0b1b8d",
+      "password_hash": "25ccd2808a759063383e99c2d3ec2bd4b2643439258345013aebace41bb555ea",
+      "password_salt": "9a1b834f8e4da189f1c9ef3ad6eb3675",
+      "role": "remediation_approver",
+      "tenant_scopes": [
+        "tenant-remediation-scope"
+      ],
+      "namespace_scopes": [
+        "payments"
+      ],
+      "environment_scopes": [
+        "prod"
+      ],
+      "workload_scopes": [
+        "prod/payments/api*"
+      ],
+      "service_account_scopes": [
+        "payments-api"
+      ],
+      "workload_label_scopes": [
+        "app=payments-api"
+      ],
+      "approver_groups": [],
+      "created_at": "2026-03-15T15:15:39.230580Z"
+    },
+    {
+      "username": "approver-7b37ee43",
+      "password_hash": "b5dcb488646cfd566eff0ba2bce515178ee1b59a29f78a6a57198cba788ac6fb",
+      "password_salt": "72676594bbadf8eae03c4532c6615ffa",
+      "role": "remediation_approver",
+      "tenant_scopes": [
+        "tenant-exception-1f2871"
+      ],
+      "namespace_scopes": [
+        "payments"
+      ],
+      "environment_scopes": [
+        "prod"
+      ],
+      "workload_scopes": [
+        "prod/payments/api*"
+      ],
+      "service_account_scopes": [
+        "payments-api"
+      ],
+      "workload_label_scopes": [
+        "app=payments-api"
+      ],
+      "approver_groups": [],
+      "created_at": "2026-03-15T15:17:04.402602Z"
+    },
+    {
+      "username": "ops-approver-83d062b5",
+      "password_hash": "805d6277363efbab583cad59dcc774522a2d39b75ef0b31d2b08db15f438c080",
+      "password_salt": "1d715d68e21c453bf64d2566edd54fa2",
+      "role": "remediation_approver",
+      "tenant_scopes": [
+        "tenant-stage-82d3c3"
+      ],
+      "namespace_scopes": [
+        "payments"
+      ],
+      "environment_scopes": [
+        "prod"
+      ],
+      "workload_scopes": [
+        "prod/payments/api*"
+      ],
+      "service_account_scopes": [
+        "payments-api"
+      ],
+      "workload_label_scopes": [
+        "app=payments-api"
+      ],
+      "approver_groups": [],
+      "created_at": "2026-03-15T15:17:05.817844Z"
+    },
+    {
+      "username": "viewer-rbac-0a0d8538",
+      "password_hash": "3c35fed173c309336a6980a7638ddeefd541dc4a7458fae23a23bb62f4539dba",
+      "password_salt": "942be5ed38f30528d621a79efea9a5c7",
+      "role": "platform_admin",
+      "tenant_scopes": [
+        "tenant-a",
+        "tenant-b"
+      ],
+      "namespace_scopes": [
+        "payments",
+        "checkout"
+      ],
+      "environment_scopes": [
+        "prod",
+        "stage"
+      ],
+      "workload_scopes": [
+        "prod/payments/api*",
+        "stage/checkout/web*"
+      ],
+      "service_account_scopes": [
+        "payments-api",
+        "checkout-web"
+      ],
+      "workload_label_scopes": [
+        "app=payments-api",
+        "tier=frontend"
+      ],
+      "approver_groups": [
+        "platform",
+        "security"
+      ],
+      "created_at": "2026-03-15T15:17:06.399840Z"
+    },
+    {
+      "username": "policy-user-dda612f2",
+      "password_hash": "7bc2b4818aa1e3f908fd056f488b615ba8f87badf277d1853d2d9a0eaccfe1bf",
+      "password_salt": "7d25bff416291795b939ef4db1f8bc4e",
+      "role": "policy_admin",
+      "tenant_scopes": [
+        "tenant-scope-f994ac"
+      ],
+      "namespace_scopes": [
+        "payments"
+      ],
+      "environment_scopes": [
+        "prod"
+      ],
+      "workload_scopes": [
+        "prod/payments/api*"
+      ],
+      "service_account_scopes": [
+        "payments-api"
+      ],
+      "workload_label_scopes": [
+        "app=payments-api"
+      ],
+      "approver_groups": [],
+      "created_at": "2026-03-15T15:17:07.292146Z"
+    },
+    {
+      "username": "remediation-user-58787f01",
+      "password_hash": "2b80f51fadf80ce05f15f1e4f96eca2c09aeed0b8bb71468b11d45428437e7c5",
+      "password_salt": "0fc347577803368252c6c81b87b68090",
+      "role": "remediation_approver",
+      "tenant_scopes": [
+        "tenant-remediation-scope"
+      ],
+      "namespace_scopes": [
+        "payments"
+      ],
+      "environment_scopes": [
+        "prod"
+      ],
+      "workload_scopes": [
+        "prod/payments/api*"
+      ],
+      "service_account_scopes": [
+        "payments-api"
+      ],
+      "workload_label_scopes": [
+        "app=payments-api"
+      ],
+      "approver_groups": [],
+      "created_at": "2026-03-15T15:17:07.621837Z"
+    },
+    {
+      "username": "approver-ce765aa2",
+      "password_hash": "8780cd00432bc8d47c50aea8ae4065deb1bc39a81d92cda63ef98a641a9127f5",
+      "password_salt": "a6337ebed936512c38645b1d6c8e87c7",
+      "role": "remediation_approver",
+      "tenant_scopes": [
+        "tenant-exception-365cec"
+      ],
+      "namespace_scopes": [
+        "payments"
+      ],
+      "environment_scopes": [
+        "prod"
+      ],
+      "workload_scopes": [
+        "prod/payments/api*"
+      ],
+      "service_account_scopes": [
+        "payments-api"
+      ],
+      "workload_label_scopes": [
+        "app=payments-api"
+      ],
+      "approver_groups": [],
+      "created_at": "2026-03-15T15:18:45.340388Z"
+    },
+    {
+      "username": "ops-approver-ef612535",
+      "password_hash": "8d9d3ef704c3514b39819eddcb9f6def173845d74828d3949edaf16efbd0dad7",
+      "password_salt": "d199ab439a32f63bfe4154a6716f6dd3",
+      "role": "remediation_approver",
+      "tenant_scopes": [
+        "tenant-stage-efc191"
+      ],
+      "namespace_scopes": [
+        "payments"
+      ],
+      "environment_scopes": [
+        "prod"
+      ],
+      "workload_scopes": [
+        "prod/payments/api*"
+      ],
+      "service_account_scopes": [
+        "payments-api"
+      ],
+      "workload_label_scopes": [
+        "app=payments-api"
+      ],
+      "approver_groups": [],
+      "created_at": "2026-03-15T15:18:45.912099Z"
+    },
+    {
+      "username": "viewer-rbac-cefa8866",
+      "password_hash": "3641b493b2c554f05896e3f307952d9d398fc312655be3001b216d63315240f6",
+      "password_salt": "83e0a7242164b9f0e1778469a2ca3994",
+      "role": "platform_admin",
+      "tenant_scopes": [
+        "tenant-a",
+        "tenant-b"
+      ],
+      "namespace_scopes": [
+        "payments",
+        "checkout"
+      ],
+      "environment_scopes": [
+        "prod",
+        "stage"
+      ],
+      "workload_scopes": [
+        "prod/payments/api*",
+        "stage/checkout/web*"
+      ],
+      "service_account_scopes": [
+        "payments-api",
+        "checkout-web"
+      ],
+      "workload_label_scopes": [
+        "app=payments-api",
+        "tier=frontend"
+      ],
+      "approver_groups": [
+        "platform",
+        "security"
+      ],
+      "created_at": "2026-03-15T15:18:46.333382Z"
+    },
+    {
+      "username": "policy-user-0ee4a935",
+      "password_hash": "9a663dbcea0ac55ca87ca22167bc116b48c6f9d6524cac0ec3fba021bc7609c9",
+      "password_salt": "63394ccedd1b679d292360bc3ecdb66e",
+      "role": "policy_admin",
+      "tenant_scopes": [
+        "tenant-scope-13bb34"
+      ],
+      "namespace_scopes": [
+        "payments"
+      ],
+      "environment_scopes": [
+        "prod"
+      ],
+      "workload_scopes": [
+        "prod/payments/api*"
+      ],
+      "service_account_scopes": [
+        "payments-api"
+      ],
+      "workload_label_scopes": [
+        "app=payments-api"
+      ],
+      "approver_groups": [],
+      "created_at": "2026-03-15T15:18:46.941762Z"
+    },
+    {
+      "username": "remediation-user-e0cc649f",
+      "password_hash": "030bbb5cac0732df439d1f04ca7e6de51e44a943a151ef632a3bcdcd5c7caa4c",
+      "password_salt": "568913539a4fd0bc5d8404f49aae2aaa",
+      "role": "remediation_approver",
+      "tenant_scopes": [
+        "tenant-remediation-scope"
+      ],
+      "namespace_scopes": [
+        "payments"
+      ],
+      "environment_scopes": [
+        "prod"
+      ],
+      "workload_scopes": [
+        "prod/payments/api*"
+      ],
+      "service_account_scopes": [
+        "payments-api"
+      ],
+      "workload_label_scopes": [
+        "app=payments-api"
+      ],
+      "approver_groups": [],
+      "created_at": "2026-03-15T15:18:47.323210Z"
+    },
+    {
+      "username": "approver-c3810f5b",
+      "password_hash": "f92096ef91936f064767e9e046afa71798d1bb4d720b0dda8408b4224cc288a7",
+      "password_salt": "b10c0aa2f0bc3b6c54a3e18c24f8b80b",
+      "role": "remediation_approver",
+      "tenant_scopes": [
+        "tenant-exception-13d759"
+      ],
+      "namespace_scopes": [
+        "payments"
+      ],
+      "environment_scopes": [
+        "prod"
+      ],
+      "workload_scopes": [
+        "prod/payments/api*"
+      ],
+      "service_account_scopes": [
+        "payments-api"
+      ],
+      "workload_label_scopes": [
+        "app=payments-api"
+      ],
+      "approver_groups": [
+        "security"
+      ],
+      "created_at": "2026-03-15T15:22:22.900498Z"
+    },
+    {
+      "username": "ops-approver-15e68d68",
+      "password_hash": "0cb295584578b28eb2addd10269ca5380322140b54464dee4f9386b082660078",
+      "password_salt": "6df2becb332fac4625d16142619cf177",
+      "role": "remediation_approver",
+      "tenant_scopes": [
+        "tenant-stage-c69498"
+      ],
+      "namespace_scopes": [
+        "payments"
+      ],
+      "environment_scopes": [
+        "prod"
+      ],
+      "workload_scopes": [
+        "prod/payments/api*"
+      ],
+      "service_account_scopes": [
+        "payments-api"
+      ],
+      "workload_label_scopes": [
+        "app=payments-api"
+      ],
+      "approver_groups": [
+        "tenant_owner"
+      ],
+      "created_at": "2026-03-15T15:22:24.855781Z"
+    },
+    {
+      "username": "viewer-rbac-675f8b19",
+      "password_hash": "de79735937e324450c520529c1dba837f996a339b773695152e7619ddd12d48f",
+      "password_salt": "6158cce6c273e00312a14edf508f61f7",
+      "role": "platform_admin",
+      "tenant_scopes": [],
+      "namespace_scopes": [],
+      "environment_scopes": [],
+      "workload_scopes": [],
+      "service_account_scopes": [],
+      "workload_label_scopes": [],
+      "approver_groups": [
+        "platform",
+        "security"
+      ],
+      "created_at": "2026-03-15T15:22:29.869830Z"
+    },
+    {
+      "username": "policy-user-c374b743",
+      "password_hash": "d05b0088a909c890bbfcf9fb8a1fa2eb0e01f3cdfedae652d5fdc6a5d0495840",
+      "password_salt": "0ba2d762e7605c7a1a85de3f7307e787",
+      "role": "policy_admin",
+      "tenant_scopes": [
+        "tenant-scope-687311"
+      ],
+      "namespace_scopes": [
+        "payments"
+      ],
+      "environment_scopes": [
+        "prod"
+      ],
+      "workload_scopes": [
+        "prod/payments/api*"
+      ],
+      "service_account_scopes": [
+        "payments-api"
+      ],
+      "workload_label_scopes": [
+        "app=payments-api"
+      ],
+      "approver_groups": [],
+      "created_at": "2026-03-15T15:22:33.182092Z"
+    },
+    {
+      "username": "remediation-user-20d577c5",
+      "password_hash": "201f448d588f5a696e6a964e0687f565f318fedc6de70959ad00d95ae887c171",
+      "password_salt": "2ec48336c9c75bfc26fbba5d9970fddb",
+      "role": "remediation_approver",
+      "tenant_scopes": [
+        "tenant-remediation-scope"
+      ],
+      "namespace_scopes": [
+        "payments"
+      ],
+      "environment_scopes": [
+        "stage"
+      ],
+      "workload_scopes": [
+        "prod/payments/api*"
+      ],
+      "service_account_scopes": [
+        "payments-api"
+      ],
+      "workload_label_scopes": [
+        "app=payments-api"
+      ],
+      "approver_groups": [],
+      "created_at": "2026-03-15T15:22:34.349196Z"
+    },
+    {
+      "username": "approver-7a0f0cbd",
+      "password_hash": "ca34450f645695611c6bff8730ceb12e14f911ef0727ce4a4541d1555da55905",
+      "password_salt": "8a285edf115dbf9cb97214416587381a",
+      "role": "remediation_approver",
+      "tenant_scopes": [
+        "tenant-exception-d759d4"
+      ],
+      "namespace_scopes": [
+        "payments"
+      ],
+      "environment_scopes": [
+        "prod"
+      ],
+      "workload_scopes": [
+        "prod/payments/api*"
+      ],
+      "service_account_scopes": [
+        "payments-api"
+      ],
+      "workload_label_scopes": [
+        "app=payments-api"
+      ],
+      "approver_groups": [
+        "security"
+      ],
+      "created_at": "2026-03-15T15:24:55.231929Z"
+    },
+    {
+      "username": "ops-approver-81868944",
+      "password_hash": "893c351df35b794d36630a9d347736f4471169fb5e7e0b8bc2c0848dc3851cd5",
+      "password_salt": "7c2cc43e343f0f564fcfa16472ea889d",
+      "role": "remediation_approver",
+      "tenant_scopes": [
+        "tenant-stage-0e06c6"
+      ],
+      "namespace_scopes": [
+        "payments"
+      ],
+      "environment_scopes": [
+        "prod"
+      ],
+      "workload_scopes": [
+        "prod/payments/api*"
+      ],
+      "service_account_scopes": [
+        "payments-api"
+      ],
+      "workload_label_scopes": [
+        "app=payments-api"
+      ],
+      "approver_groups": [
+        "security"
+      ],
+      "created_at": "2026-03-15T15:24:57.571339Z"
+    },
+    {
+      "username": "viewer-rbac-f7164e0f",
+      "password_hash": "01bd6287aa769a7d9d4087fd6f8a15ec89c4901c4854d682a7d9fce34a5c2c84",
+      "password_salt": "0fa1bc20442c5157a04b84e6c04c71d4",
+      "role": "platform_admin",
+      "tenant_scopes": [
+        "tenant-a",
+        "tenant-b"
+      ],
+      "namespace_scopes": [
+        "payments",
+        "checkout"
+      ],
+      "environment_scopes": [
+        "prod",
+        "stage"
+      ],
+      "workload_scopes": [
+        "prod/payments/api*",
+        "stage/checkout/web*"
+      ],
+      "service_account_scopes": [
+        "payments-api",
+        "checkout-web"
+      ],
+      "workload_label_scopes": [
+        "app=payments-api",
+        "tier=frontend"
+      ],
+      "approver_groups": [
+        "security",
+        "tenant_owner"
+      ],
+      "created_at": "2026-03-15T15:25:01.351870Z"
+    },
+    {
+      "username": "policy-user-b148cf6b",
+      "password_hash": "de6b1dd411dcc9414420505038171800f4aa3b81ac53dfdfa8bf6f22129ac2d3",
+      "password_salt": "7655911a44460d4cd463a90d544ce507",
+      "role": "policy_admin",
+      "tenant_scopes": [
+        "tenant-scope-b5004e"
+      ],
+      "namespace_scopes": [
+        "payments"
+      ],
+      "environment_scopes": [
+        "prod"
+      ],
+      "workload_scopes": [
+        "prod/payments/api*"
+      ],
+      "service_account_scopes": [
+        "payments-api"
+      ],
+      "workload_label_scopes": [
+        "app=payments-api"
+      ],
+      "approver_groups": [],
+      "created_at": "2026-03-15T15:25:03.472249Z"
+    },
+    {
+      "username": "remediation-user-7af1e3b1",
+      "password_hash": "25033bc94806dcabcee20379af4be340d3efa944a1398d1e1ffba06a2c52ac5a",
+      "password_salt": "af0c23f02072ca694930808161004012",
+      "role": "remediation_approver",
+      "tenant_scopes": [
+        "tenant-remediation-scope"
+      ],
+      "namespace_scopes": [
+        "payments"
+      ],
+      "environment_scopes": [
+        "prod"
+      ],
+      "workload_scopes": [
+        "prod/payments/api*"
+      ],
+      "service_account_scopes": [
+        "payments-api"
+      ],
+      "workload_label_scopes": [
+        "app=payments-api"
+      ],
+      "approver_groups": [],
+      "created_at": "2026-03-15T15:25:04.998454Z"
+    },
+    {
+      "username": "approver-542ef279",
+      "password_hash": "376a24f6746c0305aad2013093483113408b8c2202a16a137f28b811249e0f54",
+      "password_salt": "31d738dd99da774e44ae7409745f84b9",
+      "role": "remediation_approver",
+      "tenant_scopes": [
+        "tenant-exception-b0b338"
+      ],
+      "namespace_scopes": [
+        "payments"
+      ],
+      "environment_scopes": [
+        "prod"
+      ],
+      "workload_scopes": [
+        "prod/payments/api*"
+      ],
+      "service_account_scopes": [
+        "payments-api"
+      ],
+      "workload_label_scopes": [
+        "app=payments-api"
+      ],
+      "approver_groups": [
+        "security"
+      ],
+      "created_at": "2026-03-15T15:27:23.119846Z"
+    },
+    {
+      "username": "ops-approver-d2bafb16",
+      "password_hash": "78b21d8c2757bd86bf408fab3c97390cc391315bad2f96368ae303da50bb761d",
+      "password_salt": "1e4342d7dc009c83f13f17d822e1fdd2",
+      "role": "remediation_approver",
+      "tenant_scopes": [
+        "tenant-stage-2a53a4"
+      ],
+      "namespace_scopes": [
+        "payments"
+      ],
+      "environment_scopes": [
+        "prod"
+      ],
+      "workload_scopes": [
+        "prod/payments/api*"
+      ],
+      "service_account_scopes": [
+        "payments-api"
+      ],
+      "workload_label_scopes": [
+        "app=payments-api"
+      ],
+      "approver_groups": [
+        "security"
+      ],
+      "created_at": "2026-03-15T15:27:26.066173Z"
+    },
+    {
+      "username": "viewer-rbac-a110ae7e",
+      "password_hash": "a9f579727158d9bf0e6959cb71769bf37e57f32030b3e98bb8ce97f07ddfa9c6",
+      "password_salt": "b6ccc1c411a2f66411d6041b4d2a8261",
+      "role": "platform_admin",
+      "tenant_scopes": [
+        "tenant-a",
+        "tenant-b"
+      ],
+      "namespace_scopes": [
+        "payments",
+        "checkout"
+      ],
+      "environment_scopes": [
+        "prod",
+        "stage"
+      ],
+      "workload_scopes": [
+        "prod/payments/api*",
+        "stage/checkout/web*"
+      ],
+      "service_account_scopes": [
+        "payments-api",
+        "checkout-web"
+      ],
+      "workload_label_scopes": [
+        "app=payments-api",
+        "tier=frontend"
+      ],
+      "approver_groups": [
+        "security",
+        "tenant_owner"
+      ],
+      "created_at": "2026-03-15T15:27:27.871796Z"
+    },
+    {
+      "username": "policy-user-e27ae510",
+      "password_hash": "6a7c5dee5157c7d8ed15f87971b70dc176fcc427de9942c910c19ce54f818f01",
+      "password_salt": "1bc75ffce6ff8ea876efc86c3335a7ac",
+      "role": "policy_admin",
+      "tenant_scopes": [
+        "tenant-scope-641294"
+      ],
+      "namespace_scopes": [
+        "payments"
+      ],
+      "environment_scopes": [
+        "prod"
+      ],
+      "workload_scopes": [
+        "prod/payments/api*"
+      ],
+      "service_account_scopes": [
+        "payments-api"
+      ],
+      "workload_label_scopes": [
+        "app=payments-api"
+      ],
+      "approver_groups": [],
+      "created_at": "2026-03-15T15:27:29.843936Z"
+    },
+    {
+      "username": "remediation-user-ced3f990",
+      "password_hash": "7c6fdea8c391aabd480bf4cca112438de37b5537399d5881c48e8720589793fc",
+      "password_salt": "f7964a72618aaefe852aad9219e14df2",
+      "role": "remediation_approver",
+      "tenant_scopes": [
+        "tenant-remediation-scope"
+      ],
+      "namespace_scopes": [
+        "payments"
+      ],
+      "environment_scopes": [
+        "prod"
+      ],
+      "workload_scopes": [
+        "prod/payments/api*"
+      ],
+      "service_account_scopes": [
+        "payments-api"
+      ],
+      "workload_label_scopes": [
+        "app=payments-api"
+      ],
+      "approver_groups": [],
+      "created_at": "2026-03-15T15:27:31.046338Z"
+    }
+  ]
+}

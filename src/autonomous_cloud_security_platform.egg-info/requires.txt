@@ -1,0 +1,9 @@
+fastapi<1.0,>=0.115
+kubernetes<31.0,>=30.1
+PyJWT<3.0,>=2.9
+pydantic<3.0,>=2.8
+uvicorn<1.0,>=0.30
+
+[dev]
+httpx<1.0,>=0.27
+pytest<9.0,>=8.2

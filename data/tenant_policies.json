@@ -1,0 +1,1756 @@
+[
+  {
+    "tenant_id": "tenant-exception-0b2988",
+    "allowed_actions": [
+      "snapshot_forensics",
+      "block_egress"
+    ],
+    "namespace_allowlist": [
+      "payments"
+    ],
+    "environment_allowlist": [
+      "prod"
+    ],
+    "workload_allowlist": [
+      "prod/payments/api*"
+    ],
+    "service_account_allowlist": [
+      "payments-api"
+    ],
+    "workload_label_allowlist": [
+      "app=payments-api"
+    ],
+    "selector_expressions": [
+      "label.team=security"
+    ],
+    "selector_mode": "all",
+    "required_approval_count": 1,
+    "approval_stages": [],
+    "require_approval_for": [
+      "block_egress"
+    ],
+    "auto_execute_confidence_threshold": 0.95,
+    "max_auto_severity": "medium",
+    "kubernetes_namespace_prefix": null
+  },
+  {
+    "tenant_id": "tenant-exception-13d759",
+    "allowed_actions": [
+      "snapshot_forensics",
+      "block_egress"
+    ],
+    "namespace_allowlist": [
+      "payments"
+    ],
+    "environment_allowlist": [
+      "prod"
+    ],
+    "workload_allowlist": [
+      "prod/payments/api*"
+    ],
+    "service_account_allowlist": [
+      "payments-api"
+    ],
+    "workload_label_allowlist": [
+      "app=payments-api"
+    ],
+    "selector_expressions": [
+      "label.team=security"
+    ],
+    "selector_mode": "all",
+    "required_approval_count": 2,
+    "approval_stages": [],
+    "require_approval_for": [
+      "block_egress"
+    ],
+    "auto_execute_confidence_threshold": 0.95,
+    "max_auto_severity": "medium",
+    "kubernetes_namespace_prefix": null
+  },
+  {
+    "tenant_id": "tenant-exception-1f2871",
+    "allowed_actions": [
+      "snapshot_forensics",
+      "block_egress"
+    ],
+    "namespace_allowlist": [
+      "payments"
+    ],
+    "environment_allowlist": [
+      "prod"
+    ],
+    "workload_allowlist": [
+      "prod/payments/api*"
+    ],
+    "service_account_allowlist": [
+      "payments-api"
+    ],
+    "workload_label_allowlist": [
+      "app=payments-api"
+    ],
+    "selector_expressions": [
+      "label.team=security"
+    ],
+    "selector_mode": "all",
+    "required_approval_count": 2,
+    "approval_stages": [],
+    "require_approval_for": [
+      "block_egress"
+    ],
+    "auto_execute_confidence_threshold": 0.95,
+    "max_auto_severity": "medium",
+    "kubernetes_namespace_prefix": null
+  },
+  {
+    "tenant_id": "tenant-exception-33b4d9",
+    "allowed_actions": [
+      "snapshot_forensics",
+      "block_egress"
+    ],
+    "namespace_allowlist": [
+      "payments"
+    ],
+    "environment_allowlist": [
+      "prod"
+    ],
+    "workload_allowlist": [
+      "prod/payments/api*"
+    ],
+    "service_account_allowlist": [
+      "payments-api"
+    ],
+    "workload_label_allowlist": [
+      "app=payments-api"
+    ],
+    "selector_expressions": [
+      "label.team=security"
+    ],
+    "selector_mode": "all",
+    "required_approval_count": 2,
+    "approval_stages": [],
+    "require_approval_for": [
+      "block_egress"
+    ],
+    "auto_execute_confidence_threshold": 0.95,
+    "max_auto_severity": "medium",
+    "kubernetes_namespace_prefix": null
+  },
+  {
+    "tenant_id": "tenant-exception-365cec",
+    "allowed_actions": [
+      "snapshot_forensics",
+      "block_egress"
+    ],
+    "namespace_allowlist": [
+      "payments"
+    ],
+    "environment_allowlist": [
+      "prod"
+    ],
+    "workload_allowlist": [
+      "prod/payments/api*"
+    ],
+    "service_account_allowlist": [
+      "payments-api"
+    ],
+    "workload_label_allowlist": [
+      "app=payments-api"
+    ],
+    "selector_expressions": [
+      "label.team=security"
+    ],
+    "selector_mode": "all",
+    "required_approval_count": 2,
+    "approval_stages": [],
+    "require_approval_for": [
+      "block_egress"
+    ],
+    "auto_execute_confidence_threshold": 0.95,
+    "max_auto_severity": "medium",
+    "kubernetes_namespace_prefix": null
+  },
+  {
+    "tenant_id": "tenant-exception-5aa6dd",
+    "allowed_actions": [
+      "snapshot_forensics",
+      "block_egress"
+    ],
+    "namespace_allowlist": [
+      "payments"
+    ],
+    "environment_allowlist": [
+      "prod"
+    ],
+    "workload_allowlist": [
+      "prod/payments/api*"
+    ],
+    "service_account_allowlist": [
+      "payments-api"
+    ],
+    "workload_label_allowlist": [
+      "app=payments-api"
+    ],
+    "selector_expressions": [
+      "label.team=security"
+    ],
+    "selector_mode": "all",
+    "required_approval_count": 1,
+    "approval_stages": [],
+    "require_approval_for": [
+      "block_egress"
+    ],
+    "auto_execute_confidence_threshold": 0.95,
+    "max_auto_severity": "medium",
+    "kubernetes_namespace_prefix": null
+  },
+  {
+    "tenant_id": "tenant-exception-5f50cd",
+    "allowed_actions": [
+      "snapshot_forensics",
+      "block_egress"
+    ],
+    "namespace_allowlist": [
+      "payments"
+    ],
+    "environment_allowlist": [
+      "prod"
+    ],
+    "workload_allowlist": [
+      "prod/payments/api*"
+    ],
+    "service_account_allowlist": [
+      "payments-api"
+    ],
+    "workload_label_allowlist": [
+      "app=payments-api"
+    ],
+    "selector_expressions": [
+      "label.team=security"
+    ],
+    "selector_mode": "all",
+    "required_approval_count": 2,
+    "approval_stages": [],
+    "require_approval_for": [
+      "block_egress"
+    ],
+    "auto_execute_confidence_threshold": 0.95,
+    "max_auto_severity": "medium",
+    "kubernetes_namespace_prefix": null
+  },
+  {
+    "tenant_id": "tenant-exception-b0b338",
+    "allowed_actions": [
+      "snapshot_forensics",
+      "block_egress"
+    ],
+    "namespace_allowlist": [
+      "payments"
+    ],
+    "environment_allowlist": [
+      "prod"
+    ],
+    "workload_allowlist": [
+      "prod/payments/api*"
+    ],
+    "service_account_allowlist": [
+      "payments-api"
+    ],
+    "workload_label_allowlist": [
+      "app=payments-api"
+    ],
+    "selector_expressions": [
+      "label.team=security"
+    ],
+    "selector_mode": "all",
+    "required_approval_count": 2,
+    "approval_stages": [],
+    "require_approval_for": [
+      "block_egress"
+    ],
+    "auto_execute_confidence_threshold": 0.95,
+    "max_auto_severity": "medium",
+    "kubernetes_namespace_prefix": null
+  },
+  {
+    "tenant_id": "tenant-exception-d759d4",
+    "allowed_actions": [
+      "snapshot_forensics",
+      "block_egress"
+    ],
+    "namespace_allowlist": [
+      "payments"
+    ],
+    "environment_allowlist": [
+      "prod"
+    ],
+    "workload_allowlist": [
+      "prod/payments/api*"
+    ],
+    "service_account_allowlist": [
+      "payments-api"
+    ],
+    "workload_label_allowlist": [
+      "app=payments-api"
+    ],
+    "selector_expressions": [
+      "label.team=security"
+    ],
+    "selector_mode": "all",
+    "required_approval_count": 2,
+    "approval_stages": [],
+    "require_approval_for": [
+      "block_egress"
+    ],
+    "auto_execute_confidence_threshold": 0.95,
+    "max_auto_severity": "medium",
+    "kubernetes_namespace_prefix": null
+  },
+  {
+    "tenant_id": "tenant-scope-06a40f",
+    "allowed_actions": [
+      "snapshot_forensics"
+    ],
+    "namespace_allowlist": [
+      "payments"
+    ],
+    "environment_allowlist": [],
+    "workload_allowlist": [],
+    "service_account_allowlist": [],
+    "workload_label_allowlist": [],
+    "selector_expressions": [],
+    "selector_mode": "all",
+    "required_approval_count": 1,
+    "approval_stages": [],
+    "require_approval_for": [
+      "snapshot_forensics"
+    ],
+    "auto_execute_confidence_threshold": 0.9,
+    "max_auto_severity": "medium",
+    "kubernetes_namespace_prefix": null
+  },
+  {
+    "tenant_id": "tenant-scope-06f3d9",
+    "allowed_actions": [
+      "snapshot_forensics"
+    ],
+    "namespace_allowlist": [
+      "payments"
+    ],
+    "environment_allowlist": [
+      "prod"
+    ],
+    "workload_allowlist": [
+      "prod/payments/api*"
+    ],
+    "service_account_allowlist": [
+      "payments-api"
+    ],
+    "workload_label_allowlist": [
+      "app=payments-api"
+    ],
+    "selector_expressions": [],
+    "selector_mode": "all",
+    "required_approval_count": 1,
+    "approval_stages": [],
+    "require_approval_for": [
+      "snapshot_forensics"
+    ],
+    "auto_execute_confidence_threshold": 0.9,
+    "max_auto_severity": "medium",
+    "kubernetes_namespace_prefix": null
+  },
+  {
+    "tenant_id": "tenant-scope-0bd6c0",
+    "allowed_actions": [
+      "snapshot_forensics"
+    ],
+    "namespace_allowlist": [
+      "payments"
+    ],
+    "environment_allowlist": [],
+    "workload_allowlist": [],
+    "service_account_allowlist": [],
+    "workload_label_allowlist": [],
+    "selector_expressions": [],
+    "selector_mode": "all",
+    "required_approval_count": 1,
+    "approval_stages": [],
+    "require_approval_for": [
+      "snapshot_forensics"
+    ],
+    "auto_execute_confidence_threshold": 0.9,
+    "max_auto_severity": "medium",
+    "kubernetes_namespace_prefix": null
+  },
+  {
+    "tenant_id": "tenant-scope-13bb34",
+    "allowed_actions": [
+      "snapshot_forensics"
+    ],
+    "namespace_allowlist": [
+      "payments"
+    ],
+    "environment_allowlist": [
+      "prod"
+    ],
+    "workload_allowlist": [
+      "prod/payments/api*"
+    ],
+    "service_account_allowlist": [
+      "payments-api"
+    ],
+    "workload_label_allowlist": [
+      "app=payments-api"
+    ],
+    "selector_expressions": [],
+    "selector_mode": "all",
+    "required_approval_count": 1,
+    "approval_stages": [],
+    "require_approval_for": [
+      "snapshot_forensics"
+    ],
+    "auto_execute_confidence_threshold": 0.9,
+    "max_auto_severity": "medium",
+    "kubernetes_namespace_prefix": null
+  },
+  {
+    "tenant_id": "tenant-scope-193160",
+    "allowed_actions": [
+      "snapshot_forensics"
+    ],
+    "namespace_allowlist": [
+      "payments"
+    ],
+    "environment_allowlist": [
+      "prod"
+    ],
+    "workload_allowlist": [
+      "prod/payments/api*"
+    ],
+    "service_account_allowlist": [],
+    "workload_label_allowlist": [],
+    "selector_expressions": [],
+    "selector_mode": "all",
+    "required_approval_count": 1,
+    "approval_stages": [],
+    "require_approval_for": [
+      "snapshot_forensics"
+    ],
+    "auto_execute_confidence_threshold": 0.9,
+    "max_auto_severity": "medium",
+    "kubernetes_namespace_prefix": null
+  },
+  {
+    "tenant_id": "tenant-scope-1b9bfe",
+    "allowed_actions": [
+      "snapshot_forensics"
+    ],
+    "namespace_allowlist": [
+      "restricted"
+    ],
+    "environment_allowlist": [
+      "stage"
+    ],
+    "workload_allowlist": [
+      "stage/restricted/jobs*"
+    ],
+    "service_account_allowlist": [
+      "restricted-jobs"
+    ],
+    "workload_label_allowlist": [
+      "team=security"
+    ],
+    "selector_expressions": [],
+    "selector_mode": "all",
+    "required_approval_count": 1,
+    "approval_stages": [],
+    "require_approval_for": [
+      "snapshot_forensics"
+    ],
+    "auto_execute_confidence_threshold": 0.9,
+    "max_auto_severity": "medium",
+    "kubernetes_namespace_prefix": null
+  },
+  {
+    "tenant_id": "tenant-scope-1dfa47",
+    "allowed_actions": [
+      "snapshot_forensics"
+    ],
+    "namespace_allowlist": [
+      "payments"
+    ],
+    "environment_allowlist": [
+      "prod"
+    ],
+    "workload_allowlist": [
+      "prod/payments/api*"
+    ],
+    "service_account_allowlist": [],
+    "workload_label_allowlist": [],
+    "selector_expressions": [],
+    "selector_mode": "all",
+    "required_approval_count": 1,
+    "approval_stages": [],
+    "require_approval_for": [
+      "snapshot_forensics"
+    ],
+    "auto_execute_confidence_threshold": 0.9,
+    "max_auto_severity": "medium",
+    "kubernetes_namespace_prefix": null
+  },
+  {
+    "tenant_id": "tenant-scope-2f0d73",
+    "allowed_actions": [
+      "snapshot_forensics"
+    ],
+    "namespace_allowlist": [
+      "payments"
+    ],
+    "environment_allowlist": [
+      "prod"
+    ],
+    "workload_allowlist": [
+      "prod/payments/api*"
+    ],
+    "service_account_allowlist": [
+      "payments-api"
+    ],
+    "workload_label_allowlist": [
+      "app=payments-api"
+    ],
+    "selector_expressions": [],
+    "selector_mode": "all",
+    "required_approval_count": 1,
+    "approval_stages": [],
+    "require_approval_for": [
+      "snapshot_forensics"
+    ],
+    "auto_execute_confidence_threshold": 0.9,
+    "max_auto_severity": "medium",
+    "kubernetes_namespace_prefix": null
+  },
+  {
+    "tenant_id": "tenant-scope-335923",
+    "allowed_actions": [
+      "snapshot_forensics"
+    ],
+    "namespace_allowlist": [
+      "payments"
+    ],
+    "environment_allowlist": [],
+    "workload_allowlist": [],
+    "service_account_allowlist": [],
+    "workload_label_allowlist": [],
+    "selector_expressions": [],
+    "selector_mode": "all",
+    "required_approval_count": 1,
+    "approval_stages": [],
+    "require_approval_for": [
+      "snapshot_forensics"
+    ],
+    "auto_execute_confidence_threshold": 0.9,
+    "max_auto_severity": "medium",
+    "kubernetes_namespace_prefix": null
+  },
+  {
+    "tenant_id": "tenant-scope-344b16",
+    "allowed_actions": [
+      "snapshot_forensics"
+    ],
+    "namespace_allowlist": [
+      "payments"
+    ],
+    "environment_allowlist": [
+      "prod"
+    ],
+    "workload_allowlist": [
+      "prod/payments/api*"
+    ],
+    "service_account_allowlist": [
+      "payments-api"
+    ],
+    "workload_label_allowlist": [
+      "app=payments-api"
+    ],
+    "selector_expressions": [],
+    "selector_mode": "all",
+    "required_approval_count": 1,
+    "approval_stages": [],
+    "require_approval_for": [
+      "snapshot_forensics"
+    ],
+    "auto_execute_confidence_threshold": 0.9,
+    "max_auto_severity": "medium",
+    "kubernetes_namespace_prefix": null
+  },
+  {
+    "tenant_id": "tenant-scope-4052f3",
+    "allowed_actions": [
+      "snapshot_forensics"
+    ],
+    "namespace_allowlist": [
+      "payments"
+    ],
+    "environment_allowlist": [],
+    "workload_allowlist": [],
+    "service_account_allowlist": [],
+    "workload_label_allowlist": [],
+    "selector_expressions": [],
+    "selector_mode": "all",
+    "required_approval_count": 1,
+    "approval_stages": [],
+    "require_approval_for": [
+      "snapshot_forensics"
+    ],
+    "auto_execute_confidence_threshold": 0.9,
+    "max_auto_severity": "medium",
+    "kubernetes_namespace_prefix": null
+  },
+  {
+    "tenant_id": "tenant-scope-46ce9a",
+    "allowed_actions": [
+      "snapshot_forensics"
+    ],
+    "namespace_allowlist": [
+      "payments"
+    ],
+    "environment_allowlist": [
+      "prod"
+    ],
+    "workload_allowlist": [
+      "prod/payments/api*"
+    ],
+    "service_account_allowlist": [
+      "payments-api"
+    ],
+    "workload_label_allowlist": [
+      "app=payments-api"
+    ],
+    "selector_expressions": [],
+    "selector_mode": "all",
+    "required_approval_count": 1,
+    "approval_stages": [],
+    "require_approval_for": [
+      "snapshot_forensics"
+    ],
+    "auto_execute_confidence_threshold": 0.9,
+    "max_auto_severity": "medium",
+    "kubernetes_namespace_prefix": null
+  },
+  {
+    "tenant_id": "tenant-scope-47043b",
+    "allowed_actions": [
+      "snapshot_forensics"
+    ],
+    "namespace_allowlist": [
+      "restricted"
+    ],
+    "environment_allowlist": [],
+    "workload_allowlist": [],
+    "service_account_allowlist": [],
+    "workload_label_allowlist": [],
+    "selector_expressions": [],
+    "selector_mode": "all",
+    "required_approval_count": 1,
+    "approval_stages": [],
+    "require_approval_for": [
+      "snapshot_forensics"
+    ],
+    "auto_execute_confidence_threshold": 0.9,
+    "max_auto_severity": "medium",
+    "kubernetes_namespace_prefix": null
+  },
+  {
+    "tenant_id": "tenant-scope-4c8e3e",
+    "allowed_actions": [
+      "snapshot_forensics"
+    ],
+    "namespace_allowlist": [
+      "restricted"
+    ],
+    "environment_allowlist": [
+      "stage"
+    ],
+    "workload_allowlist": [
+      "stage/restricted/jobs*"
+    ],
+    "service_account_allowlist": [
+      "restricted-jobs"
+    ],
+    "workload_label_allowlist": [
+      "team=security"
+    ],
+    "selector_expressions": [],
+    "selector_mode": "all",
+    "required_approval_count": 1,
+    "approval_stages": [],
+    "require_approval_for": [
+      "snapshot_forensics"
+    ],
+    "auto_execute_confidence_threshold": 0.9,
+    "max_auto_severity": "medium",
+    "kubernetes_namespace_prefix": null
+  },
+  {
+    "tenant_id": "tenant-scope-4e9930",
+    "allowed_actions": [
+      "snapshot_forensics"
+    ],
+    "namespace_allowlist": [
+      "restricted"
+    ],
+    "environment_allowlist": [
+      "stage"
+    ],
+    "workload_allowlist": [
+      "stage/restricted/jobs*"
+    ],
+    "service_account_allowlist": [
+      "restricted-jobs"
+    ],
+    "workload_label_allowlist": [
+      "team=security"
+    ],
+    "selector_expressions": [],
+    "selector_mode": "all",
+    "required_approval_count": 1,
+    "approval_stages": [],
+    "require_approval_for": [
+      "snapshot_forensics"
+    ],
+    "auto_execute_confidence_threshold": 0.9,
+    "max_auto_severity": "medium",
+    "kubernetes_namespace_prefix": null
+  },
+  {
+    "tenant_id": "tenant-scope-56af0c",
+    "allowed_actions": [
+      "snapshot_forensics"
+    ],
+    "namespace_allowlist": [
+      "restricted"
+    ],
+    "environment_allowlist": [
+      "stage"
+    ],
+    "workload_allowlist": [
+      "stage/restricted/jobs*"
+    ],
+    "service_account_allowlist": [],
+    "workload_label_allowlist": [],
+    "selector_expressions": [],
+    "selector_mode": "all",
+    "required_approval_count": 1,
+    "approval_stages": [],
+    "require_approval_for": [
+      "snapshot_forensics"
+    ],
+    "auto_execute_confidence_threshold": 0.9,
+    "max_auto_severity": "medium",
+    "kubernetes_namespace_prefix": null
+  },
+  {
+    "tenant_id": "tenant-scope-5a7376",
+    "allowed_actions": [
+      "snapshot_forensics"
+    ],
+    "namespace_allowlist": [
+      "restricted"
+    ],
+    "environment_allowlist": [
+      "stage"
+    ],
+    "workload_allowlist": [
+      "stage/restricted/jobs*"
+    ],
+    "service_account_allowlist": [],
+    "workload_label_allowlist": [],
+    "selector_expressions": [],
+    "selector_mode": "all",
+    "required_approval_count": 1,
+    "approval_stages": [],
+    "require_approval_for": [
+      "snapshot_forensics"
+    ],
+    "auto_execute_confidence_threshold": 0.9,
+    "max_auto_severity": "medium",
+    "kubernetes_namespace_prefix": null
+  },
+  {
+    "tenant_id": "tenant-scope-628bc6",
+    "allowed_actions": [
+      "snapshot_forensics"
+    ],
+    "namespace_allowlist": [
+      "restricted"
+    ],
+    "environment_allowlist": [
+      "stage"
+    ],
+    "workload_allowlist": [
+      "stage/restricted/jobs*"
+    ],
+    "service_account_allowlist": [
+      "restricted-jobs"
+    ],
+    "workload_label_allowlist": [
+      "team=security"
+    ],
+    "selector_expressions": [],
+    "selector_mode": "all",
+    "required_approval_count": 1,
+    "approval_stages": [],
+    "require_approval_for": [
+      "snapshot_forensics"
+    ],
+    "auto_execute_confidence_threshold": 0.9,
+    "max_auto_severity": "medium",
+    "kubernetes_namespace_prefix": null
+  },
+  {
+    "tenant_id": "tenant-scope-641294",
+    "allowed_actions": [
+      "snapshot_forensics"
+    ],
+    "namespace_allowlist": [
+      "payments"
+    ],
+    "environment_allowlist": [
+      "prod"
+    ],
+    "workload_allowlist": [
+      "prod/payments/api*"
+    ],
+    "service_account_allowlist": [
+      "payments-api"
+    ],
+    "workload_label_allowlist": [
+      "app=payments-api"
+    ],
+    "selector_expressions": [],
+    "selector_mode": "all",
+    "required_approval_count": 1,
+    "approval_stages": [],
+    "require_approval_for": [
+      "snapshot_forensics"
+    ],
+    "auto_execute_confidence_threshold": 0.9,
+    "max_auto_severity": "medium",
+    "kubernetes_namespace_prefix": null
+  },
+  {
+    "tenant_id": "tenant-scope-687311",
+    "allowed_actions": [
+      "snapshot_forensics"
+    ],
+    "namespace_allowlist": [
+      "payments"
+    ],
+    "environment_allowlist": [
+      "prod"
+    ],
+    "workload_allowlist": [
+      "prod/payments/api*"
+    ],
+    "service_account_allowlist": [
+      "payments-api"
+    ],
+    "workload_label_allowlist": [
+      "app=payments-api"
+    ],
+    "selector_expressions": [],
+    "selector_mode": "all",
+    "required_approval_count": 1,
+    "approval_stages": [],
+    "require_approval_for": [
+      "snapshot_forensics"
+    ],
+    "auto_execute_confidence_threshold": 0.9,
+    "max_auto_severity": "medium",
+    "kubernetes_namespace_prefix": null
+  },
+  {
+    "tenant_id": "tenant-scope-700c2b",
+    "allowed_actions": [
+      "snapshot_forensics"
+    ],
+    "namespace_allowlist": [
+      "restricted"
+    ],
+    "environment_allowlist": [
+      "stage"
+    ],
+    "workload_allowlist": [
+      "stage/restricted/jobs*"
+    ],
+    "service_account_allowlist": [
+      "restricted-jobs"
+    ],
+    "workload_label_allowlist": [
+      "team=security"
+    ],
+    "selector_expressions": [],
+    "selector_mode": "all",
+    "required_approval_count": 1,
+    "approval_stages": [],
+    "require_approval_for": [
+      "snapshot_forensics"
+    ],
+    "auto_execute_confidence_threshold": 0.9,
+    "max_auto_severity": "medium",
+    "kubernetes_namespace_prefix": null
+  },
+  {
+    "tenant_id": "tenant-scope-717c35",
+    "allowed_actions": [
+      "snapshot_forensics"
+    ],
+    "namespace_allowlist": [
+      "payments"
+    ],
+    "environment_allowlist": [
+      "prod"
+    ],
+    "workload_allowlist": [
+      "prod/payments/api*"
+    ],
+    "service_account_allowlist": [],
+    "workload_label_allowlist": [],
+    "selector_expressions": [],
+    "selector_mode": "all",
+    "required_approval_count": 1,
+    "approval_stages": [],
+    "require_approval_for": [
+      "snapshot_forensics"
+    ],
+    "auto_execute_confidence_threshold": 0.9,
+    "max_auto_severity": "medium",
+    "kubernetes_namespace_prefix": null
+  },
+  {
+    "tenant_id": "tenant-scope-837517",
+    "allowed_actions": [
+      "snapshot_forensics"
+    ],
+    "namespace_allowlist": [
+      "restricted"
+    ],
+    "environment_allowlist": [
+      "stage"
+    ],
+    "workload_allowlist": [
+      "stage/restricted/jobs*"
+    ],
+    "service_account_allowlist": [
+      "restricted-jobs"
+    ],
+    "workload_label_allowlist": [
+      "team=security"
+    ],
+    "selector_expressions": [],
+    "selector_mode": "all",
+    "required_approval_count": 1,
+    "approval_stages": [],
+    "require_approval_for": [
+      "snapshot_forensics"
+    ],
+    "auto_execute_confidence_threshold": 0.9,
+    "max_auto_severity": "medium",
+    "kubernetes_namespace_prefix": null
+  },
+  {
+    "tenant_id": "tenant-scope-8fae91",
+    "allowed_actions": [
+      "snapshot_forensics"
+    ],
+    "namespace_allowlist": [
+      "payments"
+    ],
+    "environment_allowlist": [
+      "prod"
+    ],
+    "workload_allowlist": [
+      "prod/payments/api*"
+    ],
+    "service_account_allowlist": [
+      "payments-api"
+    ],
+    "workload_label_allowlist": [
+      "app=payments-api"
+    ],
+    "selector_expressions": [],
+    "selector_mode": "all",
+    "required_approval_count": 1,
+    "approval_stages": [],
+    "require_approval_for": [
+      "snapshot_forensics"
+    ],
+    "auto_execute_confidence_threshold": 0.9,
+    "max_auto_severity": "medium",
+    "kubernetes_namespace_prefix": null
+  },
+  {
+    "tenant_id": "tenant-scope-90e6eb",
+    "allowed_actions": [
+      "snapshot_forensics"
+    ],
+    "namespace_allowlist": [
+      "restricted"
+    ],
+    "environment_allowlist": [
+      "stage"
+    ],
+    "workload_allowlist": [
+      "stage/restricted/jobs*"
+    ],
+    "service_account_allowlist": [
+      "restricted-jobs"
+    ],
+    "workload_label_allowlist": [
+      "team=security"
+    ],
+    "selector_expressions": [],
+    "selector_mode": "all",
+    "required_approval_count": 1,
+    "approval_stages": [],
+    "require_approval_for": [
+      "snapshot_forensics"
+    ],
+    "auto_execute_confidence_threshold": 0.9,
+    "max_auto_severity": "medium",
+    "kubernetes_namespace_prefix": null
+  },
+  {
+    "tenant_id": "tenant-scope-9366a2",
+    "allowed_actions": [
+      "snapshot_forensics"
+    ],
+    "namespace_allowlist": [
+      "restricted"
+    ],
+    "environment_allowlist": [
+      "stage"
+    ],
+    "workload_allowlist": [
+      "stage/restricted/jobs*"
+    ],
+    "service_account_allowlist": [
+      "restricted-jobs"
+    ],
+    "workload_label_allowlist": [
+      "team=security"
+    ],
+    "selector_expressions": [],
+    "selector_mode": "all",
+    "required_approval_count": 1,
+    "approval_stages": [],
+    "require_approval_for": [
+      "snapshot_forensics"
+    ],
+    "auto_execute_confidence_threshold": 0.9,
+    "max_auto_severity": "medium",
+    "kubernetes_namespace_prefix": null
+  },
+  {
+    "tenant_id": "tenant-scope-97b25e",
+    "allowed_actions": [
+      "snapshot_forensics"
+    ],
+    "namespace_allowlist": [
+      "restricted"
+    ],
+    "environment_allowlist": [
+      "stage"
+    ],
+    "workload_allowlist": [
+      "stage/restricted/jobs*"
+    ],
+    "service_account_allowlist": [
+      "restricted-jobs"
+    ],
+    "workload_label_allowlist": [
+      "team=security"
+    ],
+    "selector_expressions": [],
+    "selector_mode": "all",
+    "required_approval_count": 1,
+    "approval_stages": [],
+    "require_approval_for": [
+      "snapshot_forensics"
+    ],
+    "auto_execute_confidence_threshold": 0.9,
+    "max_auto_severity": "medium",
+    "kubernetes_namespace_prefix": null
+  },
+  {
+    "tenant_id": "tenant-scope-9f2b10",
+    "allowed_actions": [
+      "snapshot_forensics"
+    ],
+    "namespace_allowlist": [
+      "payments"
+    ],
+    "environment_allowlist": [
+      "prod"
+    ],
+    "workload_allowlist": [
+      "prod/payments/api*"
+    ],
+    "service_account_allowlist": [
+      "payments-api"
+    ],
+    "workload_label_allowlist": [
+      "app=payments-api"
+    ],
+    "selector_expressions": [],
+    "selector_mode": "all",
+    "required_approval_count": 1,
+    "approval_stages": [],
+    "require_approval_for": [
+      "snapshot_forensics"
+    ],
+    "auto_execute_confidence_threshold": 0.9,
+    "max_auto_severity": "medium",
+    "kubernetes_namespace_prefix": null
+  },
+  {
+    "tenant_id": "tenant-scope-b5004e",
+    "allowed_actions": [
+      "snapshot_forensics"
+    ],
+    "namespace_allowlist": [
+      "payments"
+    ],
+    "environment_allowlist": [
+      "prod"
+    ],
+    "workload_allowlist": [
+      "prod/payments/api*"
+    ],
+    "service_account_allowlist": [
+      "payments-api"
+    ],
+    "workload_label_allowlist": [
+      "app=payments-api"
+    ],
+    "selector_expressions": [],
+    "selector_mode": "all",
+    "required_approval_count": 1,
+    "approval_stages": [],
+    "require_approval_for": [
+      "snapshot_forensics"
+    ],
+    "auto_execute_confidence_threshold": 0.9,
+    "max_auto_severity": "medium",
+    "kubernetes_namespace_prefix": null
+  },
+  {
+    "tenant_id": "tenant-scope-c8d9d1",
+    "allowed_actions": [
+      "snapshot_forensics"
+    ],
+    "namespace_allowlist": [
+      "restricted"
+    ],
+    "environment_allowlist": [
+      "stage"
+    ],
+    "workload_allowlist": [
+      "stage/restricted/jobs*"
+    ],
+    "service_account_allowlist": [
+      "restricted-jobs"
+    ],
+    "workload_label_allowlist": [
+      "team=security"
+    ],
+    "selector_expressions": [],
+    "selector_mode": "all",
+    "required_approval_count": 1,
+    "approval_stages": [],
+    "require_approval_for": [
+      "snapshot_forensics"
+    ],
+    "auto_execute_confidence_threshold": 0.9,
+    "max_auto_severity": "medium",
+    "kubernetes_namespace_prefix": null
+  },
+  {
+    "tenant_id": "tenant-scope-ca36d7",
+    "allowed_actions": [
+      "snapshot_forensics"
+    ],
+    "namespace_allowlist": [
+      "restricted"
+    ],
+    "environment_allowlist": [
+      "stage"
+    ],
+    "workload_allowlist": [
+      "stage/restricted/jobs*"
+    ],
+    "service_account_allowlist": [
+      "restricted-jobs"
+    ],
+    "workload_label_allowlist": [
+      "team=security"
+    ],
+    "selector_expressions": [],
+    "selector_mode": "all",
+    "required_approval_count": 1,
+    "approval_stages": [],
+    "require_approval_for": [
+      "snapshot_forensics"
+    ],
+    "auto_execute_confidence_threshold": 0.9,
+    "max_auto_severity": "medium",
+    "kubernetes_namespace_prefix": null
+  },
+  {
+    "tenant_id": "tenant-scope-ccf517",
+    "allowed_actions": [
+      "snapshot_forensics"
+    ],
+    "namespace_allowlist": [
+      "restricted"
+    ],
+    "environment_allowlist": [
+      "stage"
+    ],
+    "workload_allowlist": [
+      "stage/restricted/jobs*"
+    ],
+    "service_account_allowlist": [
+      "restricted-jobs"
+    ],
+    "workload_label_allowlist": [
+      "team=security"
+    ],
+    "selector_expressions": [],
+    "selector_mode": "all",
+    "required_approval_count": 1,
+    "approval_stages": [],
+    "require_approval_for": [
+      "snapshot_forensics"
+    ],
+    "auto_execute_confidence_threshold": 0.9,
+    "max_auto_severity": "medium",
+    "kubernetes_namespace_prefix": null
+  },
+  {
+    "tenant_id": "tenant-scope-d8553d",
+    "allowed_actions": [
+      "snapshot_forensics"
+    ],
+    "namespace_allowlist": [
+      "payments"
+    ],
+    "environment_allowlist": [
+      "prod"
+    ],
+    "workload_allowlist": [
+      "prod/payments/api*"
+    ],
+    "service_account_allowlist": [
+      "payments-api"
+    ],
+    "workload_label_allowlist": [
+      "app=payments-api"
+    ],
+    "selector_expressions": [],
+    "selector_mode": "all",
+    "required_approval_count": 1,
+    "approval_stages": [],
+    "require_approval_for": [
+      "snapshot_forensics"
+    ],
+    "auto_execute_confidence_threshold": 0.9,
+    "max_auto_severity": "medium",
+    "kubernetes_namespace_prefix": null
+  },
+  {
+    "tenant_id": "tenant-scope-de8e37",
+    "allowed_actions": [
+      "snapshot_forensics"
+    ],
+    "namespace_allowlist": [
+      "payments"
+    ],
+    "environment_allowlist": [
+      "prod"
+    ],
+    "workload_allowlist": [
+      "prod/payments/api*"
+    ],
+    "service_account_allowlist": [
+      "payments-api"
+    ],
+    "workload_label_allowlist": [
+      "app=payments-api"
+    ],
+    "selector_expressions": [],
+    "selector_mode": "all",
+    "required_approval_count": 1,
+    "approval_stages": [],
+    "require_approval_for": [
+      "snapshot_forensics"
+    ],
+    "auto_execute_confidence_threshold": 0.9,
+    "max_auto_severity": "medium",
+    "kubernetes_namespace_prefix": null
+  },
+  {
+    "tenant_id": "tenant-scope-dfbb9e",
+    "allowed_actions": [
+      "snapshot_forensics"
+    ],
+    "namespace_allowlist": [
+      "restricted"
+    ],
+    "environment_allowlist": [
+      "stage"
+    ],
+    "workload_allowlist": [
+      "stage/restricted/jobs*"
+    ],
+    "service_account_allowlist": [],
+    "workload_label_allowlist": [],
+    "selector_expressions": [],
+    "selector_mode": "all",
+    "required_approval_count": 1,
+    "approval_stages": [],
+    "require_approval_for": [
+      "snapshot_forensics"
+    ],
+    "auto_execute_confidence_threshold": 0.9,
+    "max_auto_severity": "medium",
+    "kubernetes_namespace_prefix": null
+  },
+  {
+    "tenant_id": "tenant-scope-ee1831",
+    "allowed_actions": [
+      "snapshot_forensics"
+    ],
+    "namespace_allowlist": [
+      "restricted"
+    ],
+    "environment_allowlist": [
+      "stage"
+    ],
+    "workload_allowlist": [
+      "stage/restricted/jobs*"
+    ],
+    "service_account_allowlist": [
+      "restricted-jobs"
+    ],
+    "workload_label_allowlist": [
+      "team=security"
+    ],
+    "selector_expressions": [],
+    "selector_mode": "all",
+    "required_approval_count": 1,
+    "approval_stages": [],
+    "require_approval_for": [
+      "snapshot_forensics"
+    ],
+    "auto_execute_confidence_threshold": 0.9,
+    "max_auto_severity": "medium",
+    "kubernetes_namespace_prefix": null
+  },
+  {
+    "tenant_id": "tenant-scope-f2d2fe",
+    "allowed_actions": [
+      "snapshot_forensics"
+    ],
+    "namespace_allowlist": [
+      "payments"
+    ],
+    "environment_allowlist": [],
+    "workload_allowlist": [],
+    "service_account_allowlist": [],
+    "workload_label_allowlist": [],
+    "selector_expressions": [],
+    "selector_mode": "all",
+    "required_approval_count": 1,
+    "approval_stages": [],
+    "require_approval_for": [
+      "snapshot_forensics"
+    ],
+    "auto_execute_confidence_threshold": 0.9,
+    "max_auto_severity": "medium",
+    "kubernetes_namespace_prefix": null
+  },
+  {
+    "tenant_id": "tenant-scope-f994ac",
+    "allowed_actions": [
+      "snapshot_forensics"
+    ],
+    "namespace_allowlist": [
+      "payments"
+    ],
+    "environment_allowlist": [
+      "prod"
+    ],
+    "workload_allowlist": [
+      "prod/payments/api*"
+    ],
+    "service_account_allowlist": [
+      "payments-api"
+    ],
+    "workload_label_allowlist": [
+      "app=payments-api"
+    ],
+    "selector_expressions": [],
+    "selector_mode": "all",
+    "required_approval_count": 1,
+    "approval_stages": [],
+    "require_approval_for": [
+      "snapshot_forensics"
+    ],
+    "auto_execute_confidence_threshold": 0.9,
+    "max_auto_severity": "medium",
+    "kubernetes_namespace_prefix": null
+  },
+  {
+    "tenant_id": "tenant-stage-0e06c6",
+    "allowed_actions": [
+      "snapshot_forensics",
+      "block_egress"
+    ],
+    "namespace_allowlist": [
+      "payments"
+    ],
+    "environment_allowlist": [
+      "prod"
+    ],
+    "workload_allowlist": [
+      "prod/payments/api*"
+    ],
+    "service_account_allowlist": [
+      "payments-api"
+    ],
+    "workload_label_allowlist": [
+      "app=payments-api"
+    ],
+    "selector_expressions": [],
+    "selector_mode": "all",
+    "required_approval_count": 1,
+    "approval_stages": [
+      {
+        "stage_name": "ops_review",
+        "required_roles": [
+          "remediation_approver"
+        ],
+        "required_approver_groups": [
+          "security"
+        ],
+        "required_count": 1,
+        "applies_to_actions": [
+          "block_egress"
+        ]
+      },
+      {
+        "stage_name": "executive_signoff",
+        "required_roles": [
+          "platform_admin"
+        ],
+        "required_approver_groups": [
+          "platform"
+        ],
+        "required_count": 1,
+        "applies_to_actions": [
+          "block_egress"
+        ]
+      }
+    ],
+    "require_approval_for": [
+      "block_egress"
+    ],
+    "auto_execute_confidence_threshold": 0.95,
+    "max_auto_severity": "medium",
+    "kubernetes_namespace_prefix": null
+  },
+  {
+    "tenant_id": "tenant-stage-28806b",
+    "allowed_actions": [
+      "snapshot_forensics",
+      "block_egress"
+    ],
+    "namespace_allowlist": [
+      "payments"
+    ],
+    "environment_allowlist": [
+      "prod"
+    ],
+    "workload_allowlist": [
+      "prod/payments/api*"
+    ],
+    "service_account_allowlist": [
+      "payments-api"
+    ],
+    "workload_label_allowlist": [
+      "app=payments-api"
+    ],
+    "selector_expressions": [],
+    "selector_mode": "all",
+    "required_approval_count": 1,
+    "approval_stages": [
+      {
+        "stage_name": "ops_review",
+        "required_roles": [
+          "remediation_approver"
+        ],
+        "required_approver_groups": [],
+        "required_count": 1,
+        "applies_to_actions": [
+          "block_egress"
+        ]
+      },
+      {
+        "stage_name": "executive_signoff",
+        "required_roles": [
+          "platform_admin"
+        ],
+        "required_approver_groups": [],
+        "required_count": 1,
+        "applies_to_actions": [
+          "block_egress"
+        ]
+      }
+    ],
+    "require_approval_for": [
+      "block_egress"
+    ],
+    "auto_execute_confidence_threshold": 0.95,
+    "max_auto_severity": "medium",
+    "kubernetes_namespace_prefix": null
+  },
+  {
+    "tenant_id": "tenant-stage-2a53a4",
+    "allowed_actions": [
+      "snapshot_forensics",
+      "block_egress"
+    ],
+    "namespace_allowlist": [
+      "payments"
+    ],
+    "environment_allowlist": [
+      "prod"
+    ],
+    "workload_allowlist": [
+      "prod/payments/api*"
+    ],
+    "service_account_allowlist": [
+      "payments-api"
+    ],
+    "workload_label_allowlist": [
+      "app=payments-api"
+    ],
+    "selector_expressions": [],
+    "selector_mode": "all",
+    "required_approval_count": 1,
+    "approval_stages": [
+      {
+        "stage_name": "ops_review",
+        "required_roles": [
+          "remediation_approver"
+        ],
+        "required_approver_groups": [
+          "security"
+        ],
+        "required_count": 1,
+        "applies_to_actions": [
+          "block_egress"
+        ]
+      },
+      {
+        "stage_name": "executive_signoff",
+        "required_roles": [
+          "platform_admin"
+        ],
+        "required_approver_groups": [
+          "platform"
+        ],
+        "required_count": 1,
+        "applies_to_actions": [
+          "block_egress"
+        ]
+      }
+    ],
+    "require_approval_for": [
+      "block_egress"
+    ],
+    "auto_execute_confidence_threshold": 0.95,
+    "max_auto_severity": "medium",
+    "kubernetes_namespace_prefix": null
+  },
+  {
+    "tenant_id": "tenant-stage-82d3c3",
+    "allowed_actions": [
+      "snapshot_forensics",
+      "block_egress"
+    ],
+    "namespace_allowlist": [
+      "payments"
+    ],
+    "environment_allowlist": [
+      "prod"
+    ],
+    "workload_allowlist": [
+      "prod/payments/api*"
+    ],
+    "service_account_allowlist": [
+      "payments-api"
+    ],
+    "workload_label_allowlist": [
+      "app=payments-api"
+    ],
+    "selector_expressions": [],
+    "selector_mode": "all",
+    "required_approval_count": 1,
+    "approval_stages": [
+      {
+        "stage_name": "ops_review",
+        "required_roles": [
+          "remediation_approver"
+        ],
+        "required_approver_groups": [],
+        "required_count": 1,
+        "applies_to_actions": [
+          "block_egress"
+        ]
+      },
+      {
+        "stage_name": "executive_signoff",
+        "required_roles": [
+          "platform_admin"
+        ],
+        "required_approver_groups": [],
+        "required_count": 1,
+        "applies_to_actions": [
+          "block_egress"
+        ]
+      }
+    ],
+    "require_approval_for": [
+      "block_egress"
+    ],
+    "auto_execute_confidence_threshold": 0.95,
+    "max_auto_severity": "medium",
+    "kubernetes_namespace_prefix": null
+  },
+  {
+    "tenant_id": "tenant-stage-c69498",
+    "allowed_actions": [
+      "snapshot_forensics",
+      "block_egress"
+    ],
+    "namespace_allowlist": [
+      "payments"
+    ],
+    "environment_allowlist": [
+      "prod"
+    ],
+    "workload_allowlist": [
+      "prod/payments/api*"
+    ],
+    "service_account_allowlist": [
+      "payments-api"
+    ],
+    "workload_label_allowlist": [
+      "app=payments-api"
+    ],
+    "selector_expressions": [],
+    "selector_mode": "all",
+    "required_approval_count": 1,
+    "approval_stages": [
+      {
+        "stage_name": "ops_review",
+        "required_roles": [
+          "remediation_approver"
+        ],
+        "required_approver_groups": [
+          "security"
+        ],
+        "required_count": 1,
+        "applies_to_actions": [
+          "block_egress"
+        ]
+      },
+      {
+        "stage_name": "executive_signoff",
+        "required_roles": [
+          "platform_admin"
+        ],
+        "required_approver_groups": [
+          "platform"
+        ],
+        "required_count": 1,
+        "applies_to_actions": [
+          "block_egress"
+        ]
+      }
+    ],
+    "require_approval_for": [
+      "block_egress"
+    ],
+    "auto_execute_confidence_threshold": 0.95,
+    "max_auto_severity": "medium",
+    "kubernetes_namespace_prefix": null
+  },
+  {
+    "tenant_id": "tenant-stage-efc191",
+    "allowed_actions": [
+      "snapshot_forensics",
+      "block_egress"
+    ],
+    "namespace_allowlist": [
+      "payments"
+    ],
+    "environment_allowlist": [
+      "prod"
+    ],
+    "workload_allowlist": [
+      "prod/payments/api*"
+    ],
+    "service_account_allowlist": [
+      "payments-api"
+    ],
+    "workload_label_allowlist": [
+      "app=payments-api"
+    ],
+    "selector_expressions": [],
+    "selector_mode": "all",
+    "required_approval_count": 1,
+    "approval_stages": [
+      {
+        "stage_name": "ops_review",
+        "required_roles": [
+          "remediation_approver"
+        ],
+        "required_approver_groups": [],
+        "required_count": 1,
+        "applies_to_actions": [
+          "block_egress"
+        ]
+      },
+      {
+        "stage_name": "executive_signoff",
+        "required_roles": [
+          "platform_admin"
+        ],
+        "required_approver_groups": [],
+        "required_count": 1,
+        "applies_to_actions": [
+          "block_egress"
+        ]
+      }
+    ],
+    "require_approval_for": [
+      "block_egress"
+    ],
+    "auto_execute_confidence_threshold": 0.95,
+    "max_auto_severity": "medium",
+    "kubernetes_namespace_prefix": null
+  }
+]
